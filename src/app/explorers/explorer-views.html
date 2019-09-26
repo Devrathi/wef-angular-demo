@@ -1,0 +1,758 @@
+<!-- Project Explorer -->
+<div class="stage__selected z35" ng-init="$ctrl.isProjectExploreOpen = false" ng-show="$ctrl.isExplorerViewOpen && $ctrl.isProjectExploreOpen && ($ctrl.selectedProjects.length > 0) ">
+  <explorer-breadcrumb breadcrumbs="$ctrl.explorerBreadcrumbs" ></explorer-breadcrumb>
+
+  <div class="projects__container" style="padding: 0;">
+
+    <div class="projects__container-aux" ng-scrollbars ng-scrollbars-config="$ctrl.verthoriz">
+
+      <div class="projects__container-sidepanel">
+        <div class="card__row height-127">
+          <h5 class="sub-title">Intervention</h5>
+        </div>
+        <div class="card__row height-120">
+          <h5 class="sub-title">Sectors</h5>
+        </div>
+        <div class="card__row height-98">
+          <h5 class="sub-title">Forms of Support</h5>
+        </div>
+        <div class="card__row height-65">
+          <h5 class="sub-title">Lead Organization</h5>
+        </div>
+        <div class="card__row height-65">
+          <h5 class="sub-title">Lead Organization Type</h5>
+        </div>
+        <div class="card__row height-87">
+          <h5 class="sub-title">Partners</h5>
+        </div>
+        <div class="card__row height-91">
+          <h5 class="sub-title">Description</h5>
+        </div>
+        <div class="card__row height-91">
+          <h5 class="sub-title">Objective</h5>
+        </div>
+        <div class="card__row height-104">
+          <h5 class="sub-title">Countries Affected / Participating</h5>
+        </div>
+      </div><!-- end projects__container-sidepanel -->
+
+
+      <div class="explore__project" ng-repeat="selectedProject in $ctrl.selectedProjects">
+        <div class="close" ng-click="$ctrl.onToggleProjectSelected($index); $ctrl.updateScrollbar();">
+          <i class="fa fa-times"></i>
+        </div>
+        <div class="explore__project-container">
+          <div class="explore__project-sector" ng-repeat="sector in selectedProject.sectors" style="height: calc(100% / {{ selectedProject.sectors.length }}); background-color: {{ sector.color }} ">
+          </div>
+        </div>
+        <div class="text card__details">
+          <div class="card__row" style="overflow-y:hidden;">
+            <h6 class="height-65" style="cursor:pointer;" ng-click="$ctrl.toggleProjectPopup(selectedProject)">{{ selectedProject.name }}</h6>
+            <p class="read__more" ng-click="$ctrl.toggleProjectPopup(selectedProject)">
+              <span ng-show="{{selectedProject.name.length}} > 87">+ Read more</span> &nbsp;
+            </p>
+          </div>
+          <div class="card__row">
+            <div class="height-65" style="overflow: hidden; margin-bottom: 10px;">
+              <div ng-repeat="sector in selectedProject.sectors" class="sector">
+                <p style="margin:0;">{{ sector.name }}</p>
+                <div class="sector-bar" style="background-color: {{ sector.color }} ">
+                </div>
+              </div>
+            </div>
+            <p class="read__more" ng-click="$ctrl.toggleProjectPopup(selectedProject)">
+              <span ng-show="{{selectedProject.sectors.length}} > 3">+ Read more</span> &nbsp;
+            </p>
+          </div>
+
+          <div class="card__row height-98">
+            <div ng-repeat="formsOfSupport in selectedProject.formsOfSupport" style="float:left; text-align:center; max-width: 70px; margin-left: 10px;">
+              <div ng-if="formsOfSupport.shortName == 'Financing'" class="fos-image" style="margin: 0 auto; width: 30px; height: 30px; background-image:url(images/circle_diagonal.png); background-size:cover; ">
+              </div>
+              <div ng-if="formsOfSupport.shortName == 'Capacity Building'" class="fos-image" style="margin: 0 auto; width: 30px; height: 30px; background-image:url(images/circle_lines.png); background-size:cover; ">
+              </div>
+              <div ng-if="formsOfSupport.shortName == 'Enabling Environment'" class="fos-image" style="margin: 0 auto; width: 30px; height: 30px; background-image:url(images/circle_dots.png); background-size:cover; ">
+              </div>
+              <p style="white-space: normal;">
+                {{ formsOfSupport.shortName }}
+              </p>
+            </div>
+          </div>
+
+
+          <div class="card__row height-65">
+            <p>
+              {{selectedProject.leadOrg}}
+            </p>
+          </div>
+
+          <div class="card__row height-65">
+            <p>
+              {{selectedProject.type}}
+            </p>
+          </div>
+
+          <div class="card__row special">
+            <p class="height-44">
+              {{selectedProject.partners}}
+            </p>
+            <p class="read__more" ng-click="$ctrl.toggleProjectPopup(selectedProject)">
+              <span ng-show="{{selectedProject.partners.length}} > 124">+ Read more</span> &nbsp;
+            </p>
+          </div>
+
+          <div class="card__row special">
+            <p class="height-44">
+              {{selectedProject.description}}
+            </p>
+            <p class="read__more" ng-click="$ctrl.toggleProjectPopup(selectedProject)">
+              <span ng-show="{{selectedProject.description.length}} > 124">+ Read more</span> &nbsp;
+            </p>
+          </div>
+
+          <div class="card__row special">
+            <p class="height-44">
+              {{selectedProject.objective}}
+            </p>
+            <p class="read__more" ng-click="$ctrl.toggleProjectPopup(selectedProject)">
+              <span ng-show="{{selectedProject.objective.length}} > 124">+ Read more</span> &nbsp;
+            </p>
+          </div>
+
+          <div class="card__row special">
+            <p class="height-44">
+              {{selectedProject.countries}}
+            </p>
+            <p class="read__more" ng-click="$ctrl.toggleProjectPopup(selectedProject)">
+              <span ng-show="{{selectedProject.countries.length}} > 124">+ Read more</span> &nbsp;
+            </p>
+          </div>
+        </div>
+        <!-- Interventions popup -->
+        <div class="wef__popup-overlay" ng-show="$ctrl.isInterventionsPopupOpen && ($ctrl.selectedProjectPopup == selectedProject.name)">
+          <div class="wef__popup" >
+            <div class="closePopup" ng-click="$ctrl.toggleProjectPopup(selectedProject)"><i class="fa fa-times"></i></div>
+            <div class="card__row">
+              <div class="header_column">
+                <h5>{{ selectedProject.name }}</h5>
+              </div>
+              <div class="header_column">
+                <h5 class="font300">{{ selectedProject.leadOrg }}</h5>
+              </div>
+              <div class="clearfix">
+              </div>
+            </div>
+            <div class="column">
+              <div class="card__row">
+                <h6>Geographic Scope</h6>
+                <p>{{ selectedProject.type }}</p>
+              </div>
+              <div class="card__row">
+                <h6>Brief description of Intervention</h6>
+                <p>{{ selectedProject.description }}</p>
+              </div>
+              <div class="card__row" style="border-bottom: none;">
+                <h6>Forms of Support</h6>
+                <div style="cursor:pointer; display: block; height: 60px; margin-top: 17px; margin-bottom: 15px;" ng-click="$ctrl.showProjectsAndLeadOrgsListForFos($index, selectedProject.formsOfSupport)">
+                  <div ng-repeat="formsOfSupport in selectedProject.formsOfSupport" style="float:left; text-align:center; max-width: 70px; margin-left: 10px;">
+                    <div ng-if="formsOfSupport.shortName == 'Financing'" class="fos-image" style="margin: 0 auto; width: 30px; height: 30px; background-image:url(images/circle_diagonal.png); background-size:cover; ">
+                    </div>
+                    <div ng-if="formsOfSupport.shortName == 'Capacity Building'" class="fos-image" style="margin: 0 auto; width: 30px; height: 30px; background-image:url(images/circle_lines.png); background-size:cover; ">
+                    </div>
+                    <div ng-if="formsOfSupport.shortName == 'Enabling Environment'" class="fos-image" style="margin: 0 auto; width: 30px; height: 30px; background-image:url(images/circle_dots.png); background-size:cover; ">
+                    </div>
+                    <p>
+                      {{ formsOfSupport.name }}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card__row" ng-show="selectedProject.leadOrgSDIP">
+                <h6>SDIP</h6>
+              </div>
+              <div class="card__row">
+                <h6>Description of (lead) institution/organization's primary purpose</h6>
+                <p>{{ selectedProject.leadOrgDescription }}</p>
+              </div>
+              <div class="card__row">
+                <h6>Core partners and other participating institutions/actors/allies</h6>
+                <p>{{ selectedProject.partners }}</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card__row" style="cursor:pointer; border-bottom: none" ng-click="$ctrl.showProjectsAndLeadOrgsListForSectors($index, selectedProject.sectors)">
+                <h6>Sectors</h6>
+                <div ng-repeat="sector in selectedProject.sectors" class="sector">
+                  <p style="margin:0;">{{ sector.name }}</p>
+                  <div class="sector-bar" style="background-color: {{ sector.color }} ">
+                  </div>
+                </div>
+              </div>
+              <div class="card__row" style="border-bottom: none">
+                <h6>Countries affected/ participating</h6>
+                <p>{{ selectedProject.countries }}</p>
+                <div class="map" ng-if="selectedProject.mapFileName">
+                  <img src="images/maps/{{selectedProject.mapFileName}}"  />
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          <div ng-if="$ctrl.focusedCardIndex == $index"
+               style="position:absolute;top:55px;left:100px;height:400px;width:200px;">
+            <projects-and-leadorgs-list
+              scrollbar-config="$ctrl.config"
+              explore-lead-orgs-callback="$ctrl.exploreLeadOrgs(leadOrgs)"
+              explore-projects-callback="$ctrl.exploreProjects(projects)"
+              is-projects-and-lead-orgs-list-open="$ctrl.isProjectsAndLeadOrgsListOpen"
+              items="$ctrl.selectedProjectsAndLeadOrgs">
+            </projects-and-leadorgs-list>
+          </div>
+        </div> <!-- /Interventions popup -->
+      </div>
+
+    </div>
+  </div>
+  <project-selection-summary
+    is-project-explore-open="$ctrl.isProjectExploreOpen"
+    selected-projects="$ctrl.selectedProjects"
+    scroll-selection="$ctrl.scrollSelection"></project-selection-summary>
+</div>
+
+<!-- Sector Explorer -->
+<div class="stage__selected z15" ng-init="$ctrl.isSectorExplorerOpen = false" ng-show="$ctrl.isExplorerViewOpen && $ctrl.isSectorExplorerOpen && ($ctrl.selectedSectors.length > 0)">
+  <explorer-breadcrumb breadcrumbs="$ctrl.explorerBreadcrumbs" ></explorer-breadcrumb>
+
+  <div class="projects__container temp" style="padding: 0;">
+
+    <div class="projects__container-aux" ng-scrollbars ng-scrollbars-config="$ctrl.verthoriz">
+      <div class="projects__container-sidepanel">
+        <div class="card__row height-93">
+          <h5 class="sub-title">Sector</h5>
+        </div>
+        <div class="card__row height-204">
+          <h5 class="sub-title">Percentage of Study</h5>
+        </div>
+        <div class="card__row height-120">
+          <h5 class="sub-title">Forms of Support</h5>
+        </div>
+        <div class="card__row height-51" style="height: 55px">
+          <h5 class="sub-title">Interventions</h5>
+        </div>
+        <div class="card__row height-51">
+          <h5 class="sub-title">Lead Organizations</h5>
+        </div>
+      </div>
+      <!-- end projects__container-sidepanel -->
+      <div class="explore__project" ng-repeat="selectedSector in $ctrl.selectedSectors" style="border-right: 1px solid #3e4449;">
+        <div style="width: 100%; height: 7px; background-color: {{ selectedSector.color }}">
+        </div>
+        <div class="close" ng-click="$ctrl.onToggleSectorSelected($index);">
+          <i class="fa fa-times"></i>
+        </div>
+        <div class="card__row">
+          <div class="text card__details">
+
+            <div class="card__row" style="overflow-y:hidden;">
+              <h6 class="height-51">{{ selectedSector.name }}</h6>
+            </div>
+            <div class="card__row height-204" style="overflow-y:hidden;">
+              <!-- <div style="display:flex"> -->
+              <div class="single-chart">
+                <svg viewBox="0 0 36 36" class="circular-chart">
+                  <path class="circle-bg"
+                        d="M18 2.0845
+                      a 15.9155 15.9155 0 0 1 0 31.831
+                      a 15.9155 15.9155 0 0 1 0 -31.831"
+                  />
+                  <path class="circle" style="stroke: {{selectedSector.color}};"
+                        stroke-dasharray="{{selectedSector.percentageOfStudy}}, 100"
+                        d="M18 2.0845
+                      a 15.9155 15.9155 0 0 1 0 31.831
+                      a 15.9155 15.9155 0 0 1 0 -31.831"
+                  />
+                  <text x="18" y="20.35" class="percentage">{{selectedSector.percentageOfStudy}}%</text>
+                </svg>
+              </div>
+            </div>
+
+            <div class="card__row" style="height: 120px;">
+              <div ng-repeat="fos in selectedSector.fos">
+                <div class="fos-container" style="cursor:pointer" ng-click="$ctrl.showProjectsAndLeadOrgsListForSectorFos($parent.$index, selectedSector, fos)">
+                  <div class="left">
+                    <p>{{fos.name}}</p>
+                  </div>
+                  <div class="middle">
+                    <h6>{{fos.percentageFos}}%</h6>
+                  </div>
+                  <div class="right">
+                    <div style="height: 15px; width: 80px; border-bottom: 1px solid #3e4449;">
+                      <div ng-if="fos.name == 'Financing'" class="filter__item-container" style="margin: 0; height: 15px; width: {{fos.percentageFos}}%; background-image:url(images/bar_diagonal.png); background-size:cover; ">
+                      </div>
+                      <div ng-if="fos.name == 'Capacity Building'" class="filter__item-container" style="margin: 0; height: 15px; width: {{fos.percentageFos}}%; background-image:url(images/bar_lines.png); background-size:cover; ">
+                      </div>
+                      <div ng-if="fos.name == 'Enabling Environment'" class="filter__item-container" style="margin: 0; height: 15px; width: {{fos.percentageFos}}%; background-image:url(images/bar_dots.png); background-size:cover; ">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="clearfix">
+                  </div>
+                </div> <!-- end single fos bubble -->
+                <div ng-if="$ctrl.focusedCardIndex == $parent.$index">
+                  <projects-and-leadorgs-list
+                    scrollbar-config="$ctrl.config"
+                    explore-lead-orgs-callback="$ctrl.exploreLeadOrgs(leadOrgs)"
+                    explore-projects-callback="$ctrl.exploreProjects(projects)"
+                    is-projects-and-lead-orgs-list-open="$ctrl.isProjectsAndLeadOrgsListOpen"
+                    items="$ctrl.selectedProjectsAndLeadOrgs">
+                  </projects-and-leadorgs-list>
+                </div>
+              </div> <!-- end ng-repeat selectedSector.fos -->
+            </div>
+
+            <div class="card__row" style="position: relative">
+              <h5 style="cursor:pointer;" ng-click="$ctrl.toggleInterventionsList($index)">{{selectedSector.projects.length}}
+                <span>Interventions</span>
+              </h5>
+              <div class="wef__list" ng-show="$ctrl.isInterventionsListOpen && ($ctrl.focusedCardIndex == $index)">
+                <div class="close" ng-click="$ctrl.toggleInterventionsList($index)">
+                  <i class="fa fa-times"></i>
+                </div>
+                <h5>{{selectedSector.name}}</h5>
+                <div class="sector-bar" style="width: 100%; height: 2px; position: relative;">
+                  <div style="position: absolute; top: 0; left: 0; bottom: 0; background-color: {{ selectedSector.color }}; width: 100%;">
+                  </div>
+                </div>
+                <h6>Interventions</h6>
+                <div class="box" ng-scrollbars ng-scrollbars-config="$ctrl.config">
+                  <div ng-repeat="project in selectedSector.projects" class="sector">
+                    <p style="white-space: normal;">
+                      {{project.name}}
+                    </p>
+                  </div>
+                </div>
+                <div style="cursor:pointer;" class="explore" ng-click="$ctrl.exploreProjects(selectedSector.projects)" >
+                  <h6>Explore<i class="fa fa-angle-right"></i></h6>
+                </div>
+              </div>
+            </div>
+            <div class="card__row" style="position: relative">
+              <h5 style="cursor:pointer;" ng-click="$ctrl.toggleLeadOrgsList($index)">{{selectedSector.leadOrgs.length}}
+                <span>Lead Organisations</span>
+              </h5>
+              <div class="wef__list" ng-show="$ctrl.isLeadOrgsListOpen && ($ctrl.focusedCardIndex == $index)">
+                <div class="close" ng-click="$ctrl.toggleLeadOrgsList($index)">
+                  <i class="fa fa-times"></i>
+                </div>
+                <h5>{{selectedSector.name}}</h5>
+                <div class="sector-bar" style="width: 100%; height: 2px; position: relative;">
+                  <div style="position: absolute; top: 0; left: 0; bottom: 0; background-color: {{ selectedSector.color }}; width: 100%;">
+                  </div>
+                </div>
+                <h6>Lead Organisations</h6>
+                <div class="box" ng-scrollbars ng-scrollbars-config="$ctrl.config">
+                  <div ng-repeat="leadOrg in selectedSector.leadOrgs" class="sector">
+                    <p style="white-space: normal;">
+                      {{leadOrg}}
+                    </p>
+                  </div>
+                </div>
+                <div style="cursor:pointer;" class="explore" ng-click="$ctrl.exploreLeadOrgNames(selectedSector.leadOrgs)" >
+                  <h6>Explore<i class="fa fa-angle-right"></i></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- end ng-repeat $ctrl.selectedSectors. -->
+    </div> <!-- end sector explorer scroll pane -->
+	
+	
+
+  </div>
+  <!-- <div class="selection__summary">
+    <h6>Selection Summary</h6>
+    <div class="selection__summary-single">
+      <h6>Sectors</h6>
+      <h3><span>{{ $ctrl.selectedSectors.length }}</span>/14</h3>
+      <div ng-repeat="sector in $ctrl.selectedSectors">
+        <p>{{ sector.name }} {{sector.percentage}}%</p>
+        <div style="width: {{sector.percentage}}%; height: 2px; background-color: {{ sector.color }}">
+        </div>
+      </div>
+    </div>
+    <div class="selection__summary-single">
+      <h6>Forms of Support</h6>
+      <h3><span>{{ fosInSectorSelection.length }}</span>/3</h3>
+      <div ng-repeat="fos in fosInSectorSelection">
+        <p>{{ fos.name }} {{fos.percentage}}</p>
+      </div>
+    </div>
+    <div class="selection__summary-single">
+      <h6>Lead Organisations</h6>
+      <h3><span>{{leadOrgsInProjectSelection.length}}</span>/150</h3>
+    </div>
+    <div class="selection__summary-single">
+      <h6>Interventions</h6>
+      <h3><span>{{$ctrl.selectedProjects.length}}</span>/554</h3>
+    </div>
+    <div class="selection__summary-single">
+      <h6>Global Footprint</h6>
+    </div>
+  </div> -->
+</div>
+<!-- / Sector Explorer -->
+
+<!-- FOS Explorer -->
+<div class="stage__selected z15" ng-init="$ctrl.isFosExploreOpen = false" ng-show="$ctrl.isExplorerViewOpen && $ctrl.isFosExploreOpen && ($ctrl.selectedFormsOfSupports.length > 0) ">
+  <explorer-breadcrumb breadcrumbs="$ctrl.explorerBreadcrumbs" ></explorer-breadcrumb>
+
+  <div class="projects__container temp" ng-scrollbars ng-scrollbars-config="$ctrl.verthoriz" style="padding: 0;">
+
+    <div class="projects__container-aux">
+
+      <div class="projects__container-sidepanel">
+        <div class="card__row height-61">
+          <h5 class="sub-title">Form of Support</h5>
+        </div>
+        <div class="card__row height-133">
+          <h5 class="sub-title">Percentage of Study</h5>
+        </div>
+        <div class="card__row height-282">
+          <h5 class="sub-title">Sectors</h5>
+        </div>
+        <div class="card__row height-51">
+          <h5 class="sub-title">Interventions</h5>
+        </div>
+        <div class="card__row height-51">
+          <h5 class="sub-title">Lead Organizations</h5>
+        </div>
+      </div>
+      <!-- end projects__container-sidepanel -->
+
+      <div class="explore__project" ng-repeat="selectedFos in $ctrl.selectedFormsOfSupports" style="border-right: 1px solid #3e4449;">
+        <div class="close" ng-click="$ctrl.onToggleFormsOfSupportSelected($index);">
+          <i class="fa fa-times"></i>
+        </div>
+
+        <div class="card__row">
+          <div class="text card__details">
+
+            <div class="card__row" style="overflow-y:hidden;">
+              <h6 style="height: 25px;">{{ selectedFos.name }}</h6>
+            </div>
+            <div class="card__row" style="overflow-y:hidden;">
+              <h6 class="height-101">
+                <div style="display:flex">
+                  <div class="fos-image border">
+                    <div class="fos-image-inner" style="background-image:url('../images/{{selectedFos.circleImageLarge}}'); width: {{selectedFos.percentageOfStudy}}%; height: {{selectedFos.percentageOfStudy}}%; ">
+                    </div>
+                  </div>
+                  <div class="fos-percentage">
+                    <h3>{{selectedFos.percentageOfStudy}}%</h3>
+                    <p>
+                      Of support accross the study is {{ selectedFos.shortName }}
+                    </p>
+                  </div>
+                </div>
+
+              </h6>
+            </div>
+            <div class="card__row">
+              <div style="overflow: hidden; margin-bottom: 10px; height: 249px;">
+                <div ng-repeat="sector in selectedFos.sectors" class="sector">
+                  <div style="cursor:pointer;" ng-click="$ctrl.showProjectsAndLeadOrgsListForSectorNameAndFos($parent.$index, sector, selectedFos);">
+                    <p style="margin:0;">{{ sector.name }}</p>
+                    <div class="sector-bar" style="width: 200%; height: 2px; position: relative;">
+                      <div style="position: absolute; top: 0; left: 0; bottom: 0; background-color: {{ sector.color }}; width: {{ sector.percentageSector }}%;">
+                      </div>
+                    </div>
+                  </div>
+                  <div ng-if="$ctrl.focusedCardIndex == $parent.$index">
+                    <projects-and-leadorgs-list
+                      scrollbar-config="$ctrl.config"
+                      explore-lead-orgs-callback="$ctrl.exploreLeadOrgs(leadOrgs)"
+                      explore-projects-callback="$ctrl.exploreProjects(projects)"
+                      is-projects-and-lead-orgs-list-open="$ctrl.isProjectsAndLeadOrgsListOpen"
+                      items="$ctrl.selectedProjectsAndLeadOrgs">
+                    </projects-and-leadorgs-list>
+                  </div>
+                </div> <!-- end ng-repeat single sector -->
+              </div>
+            </div>
+
+            <div class="card__row" style="position: relative">
+              <h5 style="cursor:pointer;" ng-click="$ctrl.toggleInterventionsList($index)">{{selectedFos.projects.length}}
+                <span>Interventions</span>
+              </h5>
+              <div class="wef__list" ng-show="$ctrl.isInterventionsListOpen && ($ctrl.focusedCardIndex == $index)">
+                <div class="close" ng-click="$ctrl.toggleInterventionsList($index)">
+                  <i class="fa fa-times"></i>
+                </div>
+                <div class="sector-bar" style="width: 100%; height: 2px; position: relative;">
+                </div>
+                <h6>Interventions</h6>
+                <div class="box" ng-scrollbars ng-scrollbars-config="$ctrl.config">
+                  <div ng-repeat="project in selectedFos.projects" class="sector">
+                    <p style="white-space: normal;">
+                      {{project.name}}
+                    </p>
+                  </div>
+                </div>
+                <div style="cursor:pointer;" class="explore" ng-click="$ctrl.exploreProjects(selectedFos.projects)" >
+                  <h6>Explore<i class="fa fa-angle-right"></i></h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="card__row" style="position: relative">
+              <h5 style="cursor:pointer;" ng-click="$ctrl.toggleLeadOrgsList($index)">{{selectedFos.leadOrgs.length}}
+                <span>Lead Organisations</span>
+              </h5>
+              <div class="wef__list" ng-show="$ctrl.isLeadOrgsListOpen && ($ctrl.focusedCardIndex == $index)">
+                <div class="close" ng-click="$ctrl.toggleLeadOrgsList($index)">
+                  <i class="fa fa-times"></i>
+                </div>
+                <h6>Lead Organisations</h6>
+                <div class="box" ng-scrollbars ng-scrollbars-config="$ctrl.config">
+                  <div ng-repeat="leadOrg in selectedFos.leadOrgs" class="sector">
+                    <p style="white-space: normal;">
+                      {{leadOrg}}
+                    </p>
+                  </div>
+                </div>
+                <div style="cursor:pointer;" class="explore" ng-click="$ctrl.exploreLeadOrgNames(selectedFos.leadOrgs)" >
+                  <h6>Explore<i class="fa fa-angle-right"></i></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- <div class="selection__summary">
+    <h6>Selection Summary</h6>
+    <div class="selection__summary-single">
+      <h6>Sectors</h6>
+      <h3><span>7</span>/14</h3>
+    </div>
+    <div class="selection__summary-single">
+      <h6>Forms of Support</h6>
+      <h3><span>3</span>/3</h3>
+    </div>
+    <div class="selection__summary-single">
+      <h6>Lead Organisations</h6>
+      <h3><span>{{$ctrl.selectedProjects.length}}</span>/150</h3>
+    </div>
+    <div class="selection__summary-single">
+      <h6>Interventions</h6>
+      <h3><span>{{$ctrl.selectedProjects.length}}</span>/554</h3>
+    </div>
+    <div class="selection__summary-single">
+      <h6>Global Footprint</h6>
+    </div>
+  </div> -->
+</div>
+<!-- / FOS Explorer -->
+
+<!-- LeadOrg Explorer -->
+<div class="stage__selected z25" ng-init="$ctrl.isLeadOrgExploreOpen = false" ng-show="$ctrl.isExplorerViewOpen && $ctrl.isLeadOrgExploreOpen && ($ctrl.selectedLeadOrgs.length > 0) ">
+  <explorer-breadcrumb breadcrumbs="$ctrl.explorerBreadcrumbs" ></explorer-breadcrumb>
+
+  <div class="projects__container temp" ng-scrollbars ng-scrollbars-config="$ctrl.verthoriz" style="padding: 0;">
+
+    <div class="projects__container-aux">
+      <div class="projects__container-sidepanel">
+        <div class="card__row height-127">
+          <h5 class="sub-title">Lead Organization</h5>
+        </div>
+        <div class="card__row height-166">
+          <h5 class="sub-title">Sectors</h5>
+        </div>
+        <div class="card__row height-81">
+          <h5 class="sub-title">Forms of Support</h5>
+        </div>
+        <div class="card__row height-65">
+          <h5 class="sub-title">Lead Organization Type</h5>
+        </div>
+        <div class="card__row height-87">
+          <h5 class="sub-title">Description</h5>
+        </div>
+        <div class="card__row height-65">
+          <h5 class="sub-title">Geographic Scope</h5>
+        </div>
+        <div class="card__row height-200">
+          <h5 class="sub-title">Interventions</h5>
+        </div>
+      </div>
+      <!-- end projects__container-sidepanel -->
+      <div class="explore__project" ng-repeat="selectedLeadOrg in $ctrl.selectedLeadOrgs" style="border-right: 1px solid #3e4449;">
+        <div class="close" ng-click="$ctrl.onToggleLeadOrgSelected($index);">
+          <i class="fa fa-times"></i>
+        </div>
+        <div class="card__row">
+          <div class="text card__details">
+            <div class="card__row" style="overflow-y:hidden;">
+              <h6 class="height-65" style="cursor:pointer;" ng-click="$ctrl.toggleLeadOrgPopup(selectedLeadOrg)">{{ selectedLeadOrg.name }}</h6>
+              <p class="read__more" ng-click="$ctrl.toggleLeadOrgPopup(selectedLeadOrg)">
+                <span ng-show="{{selectedLeadOrg.name.length}} > 87">+ Read more</span> &nbsp;
+              </p>
+            </div>
+            <div class="card__row">
+              <div class="filter__item-container" style="margin: 8px 0 17px 0; height: 20px; width: 100%; background-color: grey ">
+                <div class="filter__item-sector" ng-repeat="sector in selectedLeadOrg.sectors" style="width: calc(100% / {{ selectedLeadOrg.sectors.length }}); background-color: {{ sector.color }} ">
+                </div>
+              </div>
+              <div class="clearfix">
+              </div>
+              <div class="height-65" style="overflow: hidden; margin-bottom: 10px;">
+                <div ng-repeat="sector in selectedLeadOrg.sectors" class="sector">
+                  <p style="margin:0;">{{ sector.name }}</p>
+                  <div class="sector-bar" style="background-color: {{ sector.color }} ">
+                  </div>
+                </div>
+              </div>
+              <p class="read__more" ng-click="$ctrl.toggleLeadOrgPopup(selectedLeadOrg)">
+                <span ng-show="{{selectedLeadOrg.sectors.length}} > 3">+ Read more</span> &nbsp;
+              </p>
+            </div>
+            <div class="card__row height-81">
+              <div ng-repeat="formsOfSupport in selectedLeadOrg.formsOfSupport" style="float:left; text-align:center; max-width: 70px; margin-left: 10px;">
+                <div ng-if="formsOfSupport.name == 'Financing'" class="fos-image" style="margin: 0 auto; width: 30px; height: 30px; background-image:url(images/circle_diagonal.png); background-size:cover; ">
+                </div>
+                <div ng-if="formsOfSupport.name == 'Capacity Building'" class="fos-image" style="margin: 0 auto; width: 30px; height: 30px; background-image:url(images/circle_lines.png); background-size:cover; ">
+                </div>
+                <div ng-if="formsOfSupport.name == 'Enabling Environment'" class="fos-image" style="margin: 0 auto; width: 30px; height: 30px; background-image:url(images/circle_dots.png); background-size:cover; ">
+                </div>
+                <p style="white-space: normal;">
+                  {{ formsOfSupport.name }}
+                </p>
+              </div>
+            </div>
+
+            <div class="card__row height-65" style="overflow-y:hidden;">
+              <p>{{selectedLeadOrg.type}}</p>
+            </div>
+
+            <div class="card__row special">
+              <p class="height-44">
+                {{selectedLeadOrg.description}}
+              </p>
+              <p class="read__more" ng-click="$ctrl.toggleLeadOrgPopup(selectedLeadOrg)">
+                <span ng-show="{{selectedLeadOrg.description.length}} > 124">+ Read more</span> &nbsp;
+              </p>
+            </div>
+            <div class="card__row height-65" style="overflow-y:hidden;">
+              <p>{{selectedLeadOrg.geography}}</p>
+            </div>
+
+            <div class="card__row">
+              <h5>{{selectedLeadOrg.projects.length}}
+                <span ng-if="selectedLeadOrg.projects.length > 1">Interventions</span>
+                <span ng-if="selectedLeadOrg.projects.length < 2">Intervention</span>
+              </h5>
+              <div class="clearfix">
+              </div>
+              <div class="height-65" style="overflow: hidden; margin-bottom: 10px;">
+                <div ng-repeat="project in selectedLeadOrg.projects" class="sector">
+                  <p style="white-space: normal;">
+                    {{project.name}}
+                  </p>
+                </div>
+              </div>
+              <p class="read__more" ng-click="$ctrl.toggleLeadOrgPopup(selectedLeadOrg)">
+                <span ng-show="{{selectedLeadOrg.projects.length}} > 3">+ Read more</span> &nbsp;
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Leadorg popup -->
+        <div class="wef__popup-overlay" ng-show="$ctrl.isLeadOrgPopupOpen && ($ctrl.selectedLeadOrgPopup == selectedLeadOrg.name)">
+          <div class="wef__popup">
+            <div class="closePopup" ng-click="$ctrl.toggleLeadOrgPopup(selectedLeadOrg)"><i class="fa fa-times"></i></div>
+            <div class="card__row">
+              <h5>{{ selectedLeadOrg.name }}</h5>
+            </div>
+            <div class="column">
+              <div class="card__row">
+                <h6>Interventions</h6>
+                <ul>
+                  <li ng-repeat="project in selectedLeadOrg.projects">{{project.name}}</li>
+                </ul>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card__row" ng-show="selectedLeadOrg.SDIP">
+                <h6>SDIP</h6>
+              </div>
+              <div class="card__row">
+                <h6>Description of (lead) institution/organization's primary purpose</h6>
+                <p>{{ selectedLeadOrg.description }}</p>
+              </div>
+              <div class="card__row" style="border-bottom: none;">
+                <h6>Forms of Support</h6>
+                <div style="display: block; height: 60px; margin-top: 17px; margin-bottom: 15px;">
+                  <div ng-repeat="formsOfSupport in selectedLeadOrg.formsOfSupport" style="float:left; text-align:center; max-width: 70px; margin-left: 10px;">
+                    <div ng-if="formsOfSupport.name == 'Financing'" class="fos-image" style="margin: 0 auto; width: 30px; height: 30px; background-image:url(images/circle_diagonal.png); background-size:cover; ">
+                    </div>
+                    <div ng-if="formsOfSupport.name == 'Capacity Building'" class="fos-image" style="margin: 0 auto; width: 30px; height: 30px; background-image:url(images/circle_lines.png); background-size:cover; ">
+                    </div>
+                    <div ng-if="formsOfSupport.name == 'Enabling Environment'" class="fos-image" style="margin: 0 auto; width: 30px; height: 30px; background-image:url(images/circle_dots.png); background-size:cover; ">
+                    </div>
+                    <p>
+                      {{ formsOfSupport.name }}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card__row" style="border-bottom: none">
+                <h6>Sectors</h6>
+                <div ng-repeat="sector in selectedLeadOrg.sectors" class="sector">
+                  <p style="margin:0;">{{ sector.name }}</p>
+                  <div class="sector-bar" style="background-color: {{ sector.color }} ">
+                  </div>
+                </div>
+              </div>
+              <div class="card__row">
+                <h6>Geographic Scope</h6>
+                <p>{{ selectedLeadOrg.geography }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- / Leadorg popup -->
+      </div>
+
+    </div>
+
+  </div>
+  <!-- <div class="selection__summary">
+    <h6>Selection Summary</h6>
+    <div class="selection__summary-single">
+      <h6>Sectors</h6>
+      <h3><span>7</span>/14</h3>
+    </div>
+    <div class="selection__summary-single">
+      <h6>Forms of Support</h6>
+      <h3><span>3</span>/3</h3>
+    </div>
+    <div class="selection__summary-single">
+      <h6>Lead Organisations</h6>
+      <h3><span>{{$ctrl.selectedProjects.length}}</span>/150</h3>
+    </div>
+    <div class="selection__summary-single">
+      <h6>Interventions</h6>
+      <h3><span>{{$ctrl.selectedProjects.length}}</span>/554</h3>
+    </div>
+    <div class="selection__summary-single">
+      <h6>Global Footprint</h6>
+    </div>
+  </div> -->
+</div>

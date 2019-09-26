@@ -1,0 +1,279 @@
+<intro-popup is-intro-popup-open="isIntroPopupOpen"></intro-popup>
+
+<about-popup is-about-popup-open="isAboutPopupOpen"></about-popup>
+
+
+<div class="landing">
+
+</div>
+
+<div class="top-bar">
+  <div class="logo">
+    <img src="images/cosmos.png" alt="Orbit" />
+  </div>
+  <div class="menu">
+    <ul>
+      <li ng-click="isAboutPopupOpen = !isAboutPopupOpen"><a href="/about.html" target="_self">About</a></li>
+      <li ng-click="isIntroPopupOpen = !isIntroPopupOpen"><a href>Guide</a></li>
+	  <li ng-click="isIntroPopupOpen = !isIntroPopupOpen"><a class="active" href>Explore</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="auxbar d-flex fade" ng-show="
+  (selectedProjects.length > 0) ||
+  (selectedSectors.length > 0) ||
+  (selectedLeadOrgs.length > 0) ||
+  (selectedFormsOfSupports.length > 0)
+  ">
+  <!-- Start Interventions -->
+  <div class="explore" ng-show="selectedProjects.length > 0">
+    <div class="title" ng-click="exploreSelectedProjects(); updateScrollbar();">
+      <h6>Explore Interventions ({{selectedProjects.length}})</h6>
+    </div>
+    <div class="close" ng-click="clearSelectedProjects();">
+      <i class="fa fa-times"></i>
+    </div>
+    <div class="filter">
+      <div class="filter__item" ng-repeat="selectedProject in selectedProjects">
+        <small ng-click="toggleProjectSelected(selectedProject);"><i class="fa fa-times"></i></small>
+        <div class="filter__item-container">
+          <div class="filter__item-sector" ng-repeat="sector in selectedProject.sectors" style="width: calc(80px / {{ selectedProject.sectors.length }}); background-color: {{ sector.color }} ">
+          </div>
+        </div>
+        <div class="text">
+          <p>{{ selectedProject.name }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Interventions -->
+  <!-- Start Sectors -->
+  <div class="explore" ng-show="selectedSectors.length > 0">
+    <div class="title" ng-click="exploreSelectedSectors(); updateScrollbar();">
+      <h6>Explore Sectors ({{selectedSectors.length}})</h6>
+    </div>
+    <div class="close" ng-click="clearSelectedSectors();">
+      <i class="fa fa-times"></i>
+    </div>
+    <div class="filter">
+      <div class="filter__item" ng-repeat="selectedSector in selectedSectors track by $index">
+        <small ng-click="toggleSectorSelected(selectedSector);" style="clear:both;"><i class="fa fa-times"></i></small>
+        <div class="filter__item-container" style="width: 40px; background-color: {{ selectedSector.color }} ">
+        </div>
+        <div class="text">
+          <p>{{ selectedSector.name }}</p>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+  <!-- End Sectors -->
+
+  <!-- Start leadOrgs -->
+  <div class="explore" ng-show="selectedLeadOrgs.length > 0">
+    <div class="title" ng-click="exploreSelectedLeadOrgs(); updateScrollbar();">
+    <h6> Explore Lead Orgs ({{selectedLeadOrgs.length}})</h6>
+    </div>
+    <div class="close" ng-click="clearSelectedLeadOrgs();">
+      <i class="fa fa-times"></i>
+    </div>
+    <div class="filter">
+      <div class="filter__item" ng-repeat="selectedLeadOrg in selectedLeadOrgs">
+        <small ng-click="toggleLeadOrgSelected(selectedLeadOrg);"><i class="fa fa-times"></i></small>
+        <div class="filter__item-container" style="width: 80px; background-color: grey ">
+          <div class="filter__item-sector" ng-repeat="sector in selectedLeadOrg.sectors" style="width: calc(80px / {{ selectedLeadOrg.sectors.length }}); background-color: {{ sector.color }} ">
+          </div>
+        </div>
+        <div class="text">
+          <p>{{ selectedLeadOrg.name }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Sectors -->
+  <!-- Start Fos -->
+  <div class="explore" ng-show="selectedFormsOfSupports.length > 0">
+    <div class="title" ng-click="exploreSelectedFos(); updateScrollbar();">
+      <h6>Explore Forms Of Support ({{selectedFormsOfSupports.length}})</h6>
+    </div>
+    <div class="close" ng-click="clearSelectedFos();">
+      <i class="fa fa-times"></i>
+    </div>
+    <div class="filter">
+      <div class="filter__item" ng-repeat="support in selectedFormsOfSupports">
+        <small ng-click="toggleFormsOfSupportSelected(support);"><i class="fa fa-times"></i></small>
+        <div class="filter__item-container" style="width: 80px; background-image:url(images/{{ support.barImage }}); background-size:cover; ">
+        </div>
+        <div class="text">
+          <p>{{ support.name }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Fos -->
+</div>
+
+<explorer-views
+  all-lead-orgs="orgs"
+  explorer-breadcrumbs="explorerBreadcrumbs"
+  is-interventions-popup-open="isInterventionsPopupOpen"
+  is-interventions-list-open="isInterventionsListOpen"
+  is-lead-orgs-list-open="isLeadOrgsListOpen"
+  is-lead-org-popup-open="isLeadOrgPopupOpen"></explorer-views>
+
+<div class="panel-container">
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+      <div class="panel collapsed panel-default">
+          <div class="panel-heading" role="tab" id="headingOne" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <p class="panel-title">
+                <a>Forms of Support</a>
+                <span class="icon-down">
+                  <i class="fa fa-angle-down"></i>
+                </span>
+                <span class="icon-up">
+                  <i class="fa fa-angle-up"></i>
+                </span>
+              </p>
+
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+              <div class="panel-body">
+
+                <div class="panel-item" ng-repeat="support in formsOfSupportData" class="panel-item" ng-click="toggleFormsOfSupportSelected(support);" style="padding: 5px 25px;" ng-class="{'formsOfSupportIsSelected' : support.toggled, 'formsOfSupportIsNotSelected' : !support.toggled}">
+                  <div class="active">
+                    <i class="fa fa-check"></i>
+                  </div>
+                  <p style="margin: 2px 0 3px 0;">{{support.name}}</p>
+                </div>
+
+            </div>
+          </div>
+      </div>
+      <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingTwo" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <p class="panel-title">
+              <a>Sectors</a>
+              <span class="icon-down">
+                <i class="fa fa-angle-down"></i>
+              </span>
+              <span class="icon-up">
+                <i class="fa fa-angle-up"></i>
+              </span>
+            </p>
+
+          </div>
+          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+              <div class="panel-body" ng-scrollbars ng-scrollbars-config="config">
+                <!-- sectors panel -->
+                    <div class="panel-item" ng-repeat="sector in sectorsData" class="panel-item" ng-click="toggleSectorSelected(sector);" ng-class="{'sectorIsSelected' : sector.toggled, 'sectorIsNotSelected' : !sector.toggled}" style="padding: 5px 25px;">
+                      <div class="active" style="top: 7px;">
+                        <i class="fa fa-check"></i>
+                      </div>
+                      <p style="margin: 2px 0 3px 0;">{{sector.name}}</p>
+                      <div class="sector-bar" style="background-color: {{sector.color}}; width: 25px; ">
+                      </div>
+                    </div>
+
+              </div>
+          </div>
+      </div>
+      <div class="panel collapsed panel-default">
+          <div class="panel-heading" role="tab" id="headingThree" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <p class="panel-title">
+              <a>Lead Organisations</a>
+              <span class="icon-down">
+                <i class="fa fa-angle-down"></i>
+              </span>
+              <span class="icon-up">
+                <i class="fa fa-angle-up"></i>
+              </span>
+            </p>
+
+          </div>
+          <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+              <div class="panel-body" ng-scrollbars ng-scrollbars-config="config">
+                <input type="text" ng-model="leadOrgSearch.name" placeholder="Search...">
+                <div ng-repeat="org in orgs | filter:leadOrgSearch | orderBy:'name'" class="panel-item" ng-click="toggleLeadOrgSelected(org);" ng-class="{'projectIsSelected' : org.toggled, 'isNotSelected' : !org.toggled}">
+                  <div class="active">
+                    <i class="fa fa-check"></i>
+                  </div>
+                  <p>{{org.name}}</p>
+                  <!-- <div class="org-bar" style="background-color: {{org.color}}; width: {{ org.totalProjects }}% ">
+                  </div> -->
+                </div>
+            </div>
+          </div>
+      </div>
+      <div class="panel collapsed panel-default">
+          <div class="panel-heading" role="tab" id="headingFour" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            <p class="panel-title">
+              <a>Interventions</a>
+              <span class="icon-down">
+                <i class="fa fa-angle-down"></i>
+              </span>
+              <span class="icon-up">
+                <i class="fa fa-angle-up"></i>
+              </span>
+            </p>
+
+          </div>
+          <div id="collapseFour" class="panel-collapse collapse  in show" role="tabpanel" aria-labelledby="headingFour">
+              <div class="panel-body" ng-scrollbars ng-scrollbars-config="config">
+                <input type="text" ng-model="projectSearch.name" placeholder="Search...">
+                <div ng-repeat="leadOrg in leadOrgs">
+                  <div class="panel-item" ng-repeat="project in leadOrg.projects | filter:projectSearch" ng-click="toggleProjectSelected(project);" ng-class="{'projectIsSelected' : project.toggled, 'isNotSelected' : !project.toggled}">
+                    <div class="active">
+                      <i class="fa fa-check"></i>
+                    </div>
+                    <p>{{ project.name }}</p>
+                  </div>
+                </div>
+
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="interventions"><span style="font-size: 2rem;">{{effectiveSelectedProjectsCount}}</span> Interventions</div>
+
+</div>
+
+<!-- Start Stage -->
+<div class="stage" ng-class="{'projectsCurrentlySelected': selectedProjects.length > 0 || selectedSectors.length > 0 || selectedFormsOfSupports.length > 0 || selectedLeadOrgs.length > 0 }">
+      <div class="stage__leadOrg" ng-repeat="leadOrg in leadOrgs | orderBy:'name'" style="position: relative;">
+        <div class="stage__project" ng-repeat="project in leadOrg.projects" ng-click="toggleProjectSelected(project);" ng-class="{'projectIsSelected' : project.effectiveToggled, 'projectIsNotSelected' : !project.effectiveToggled}"
+        aria-label="{{ project.name }} &#10; --------- &#10;{{ leadOrg.name }}"
+        data-balloon-pos="right" data-balloon-break data-balloon-length="xlarge">
+          <div class="top">
+          </div>
+          <div class="active">
+          </div>
+          <div class="nosector" ng-show="project.sectors < 1">
+          </div>
+          <div class="stage__project-sector" ng-repeat="sector in project.sectors" style="height: calc(30px / {{ project.sectors.length }}); background-color: {{ sector.color }}">
+          </div>
+          <div ng-repeat="support in project.formsOfSupport">
+            <hr class="line line-solid" ng-if="support.id == 1" />
+            <hr class="line line-dashed" ng-if="support.id == 2" />
+            <hr class="line line-dotted" ng-if="support.id == 3" />
+          </div>
+
+        </div>
+      </div>
+      <!--
+      <div ng-repeat="leadOrg in leadOrgs  | orderBy:'name'" style="position: relative;">
+        <div ng-repeat="project in leadOrg.projects" ng-click="toggleProjectSelected(project);"
+        aria-label="{{ leadOrg.name }} / {{ project.name }}" >
+
+          <div>{{ leadOrg.name }} /<b>{{ project.name }}</b></div>
+          <div>Toggled? {{ project.toggled }}</div>
+          <div>EffectiveToggled? {{ project.effectiveToggled }}</div>
+          <div>Sectors: {{project.sectorsDebugString}}</div>
+          <div>--------------------------</div>
+        </div>
+      </div>
+    -->
+
+</div>
+<!-- End Stage -->

@@ -1,0 +1,1975 @@
+[
+  {
+    "id" : 1,
+    "name" : "Absa",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Private sector",
+    "geography" : "Regional (Africa) ",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "The Corporate and Investment section provides sector-specific expertise and financing solutions",
+        "type" : "Private sector services",
+        "description" : "",
+        "objective" : "To provide financial and banking solutions.",
+        "mapFileName" : "map001.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1],
+        "sectorIDs": [10,11,12,13,14],
+        "sectors": [],
+        "partners" : "Not specified.",
+        "countries" : "Botswana, Zambia, Namibia, South Africa, Seychelles, Mauritius, Kenya, Ghana, Tanzania, Mozambique, Nigeria, Uganda"
+      }
+    ]
+  },
+  {
+    "id" : 2,
+    "name" : "Access Power",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Private sector",
+    "geography" : "International",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Access Co-development Facility (ACF)",
+        "type" : "Finance facility/fund",
+        "description" : "",
+        "objective" : "To provide local project developers and originators in Africa with the technical expertise and funding required to bring their renewable energy projects to fruition.",
+        "mapFileName" : "africa_asia.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,2],
+        "sectorIDs": [11,14],
+        "sectors": [],
+        "partners" : "Access Power works with international partners in the project selection process. ACF judging panel includes: African Development Bank, FMO, IFC, InfraCo Africa, OPIC, Power Africa, Proparco. Total Eren are strategic shareholders of Access Power and are key partners of ACF.",
+        "countries" : "Africa-wide (also Asia since 2018)"
+      }
+    ]
+  },
+  {
+    "id" : 3,
+    "name" : "Africa Climate Resilient Investment Facility (AFRI-RES)",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Finance facility/Fund",
+    "geography" : "Regional (Africa) ",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Technical assistance and knowledge-based support for project development that will deliver climate resilient infrastructure in Africa.",
+        "type" : "Finance facility/fund",
+        "description" : "",
+        "objective" : "To establish an Africa-based centre of technical competence and excellence that would assist governments, planners and private developers in Africa to integrate climate change into project planning and design, thereby attracting funding from both development and climate finance sources.",
+        "mapFileName" : "africa.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [2,3],
+        "sectorIDs": [9,11,14],
+        "sectors": [],
+        "partners" : "Launched by the United Nations Economic Commission for Africa (through its African Climate Policy Center - ACPC), and the African Union Commission, World Bank and African Development Bank. Received initial seed funding from the Nordic Development Fund. ",
+        "countries" : "Africa"
+      }
+    ]
+  },
+  {
+    "id" : 4,
+    "name" : "Africa Finance Corporation (AFC)",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Development finance institution (DFI)",
+    "geography" : "Regional (Africa) ",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Environmental and Social Risk Management Policy",
+        "type" : "Approach/strategy",
+        "description" : "",
+        "objective" : "To address Africa’s infrastructure development needs while seeking a competitive return on capital for its shareholders.",
+        "mapFileName" : "map002.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,2],
+        "sectorIDs": [5,7,10,11,14],
+        "sectors": [],
+        "partners" : "AFC is majority owned by private investors, most of which are African financial institutions (e.g. Central Bank of Nigeria); AFC also allows African states to be shareholders and members of the corporation. Regional partnerships include: African Development Bank, African Export-Import Bank, PTA Bank, Islamic Development Bank, Banque Ouest Africaine de Development, the Nigerian Sovereign Investment Authority. International partnerships: China Africa Fund, Infrastructure Development Finance Company of India, FMO and US Government through USAID & US Presidential “Power Africa Initiative”. ",
+        "countries" : "Projects in: Ghana, Cape Verde, Republic of Benin, Mozambique, Nigeria, Kenya, Cote d’Ivoire, Ethiopia, South Africa, Gabon, Republic of Congo, Chad"
+      }
+    ]
+  },
+  {
+    "id" : 5,
+    "name" : "Africa Foundation",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Foundation",
+    "geography" : "Regional (Africa) ",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Funds projects in support of rural development, conservation",
+        "type" : "Projects",
+        "description" : "",
+        "objective" : "To empower rural communities and support conservation.",
+        "mapFileName" : "map003.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,2],
+        "sectorIDs": [3,5,8,9,12],
+        "sectors": [],
+        "partners" : "Africa Foundation receives support and funding from Africa Foundation (USA) and Africa Foundation (UK). ",
+        "countries" : "Africa Foundation (UK) is funding projects in more than 40 communities in Botswana, Kenya, Mozambique, Namibia, South Africa, Tanzania."
+      }
+    ]
+  },
+  {
+    "id" : 6,
+    "name" : "Africa GreenCo",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Finance facility/fund",
+    "geography" : "Regional (sub-region within Africa)",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Mitigation of credit risks",
+        "type" : "General mandate",
+        "description" : "",
+        "objective" : "To increase private sector investment in energy generation in sub-Saharan Africa by mitigating credit risks.",
+        "mapFileName" : "map004.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1],
+        "sectorIDs": [11],
+        "sectors": [],
+        "partners" : "A public-private partnership between African governments, the private sector and international financial institutions. Partners include the Rockerfeller Foundation, Convergence, P4G, Sustainable Energy for All, RERA, SADC SAPP, APUA, NEPAD, Global Water Partnership.",
+        "countries" : "15 member countries in SADC"
+      }
+    ]
+  },
+  {
+    "id" : 7,
+    "name" : "Africa Infrastructure Development Association (AfIDA)",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Forum/convening organisation",
+    "geography" : "Regional (Africa) ",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Platform for dialogue, sharing tools, policy advocacy",
+        "type" : "General mandate",
+        "description" : "",
+        "objective" : "To promote and enable infrastructure project development activities in Africa.",
+        "mapFileName" : "africa.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [2,3],
+        "sectorIDs": [14],
+        "sectors": [],
+        "partners" : "AfIDA's founding members include: Africa Finance Corporation, Financierings-Maatschappij voor Ontwikkelingslanden N.V, Trinity LLP, Eleqtra, African Infrastructure Investment Managers, Themis Abraaj and Climate Investment One.",
+        "countries" : "Africa"
+      }
+    ]
+  },
+  {
+    "id" : 8,
+    "name" : "Africa Innovation Foundation",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Foundation",
+    "geography" : "Regional (Africa) ",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Innovation Prize in Africa",
+        "type" : "Events",
+        "description" : "",
+        "objective" : "(1) Increase Africa’s prosperity through investing in home-grown innovations & entrepreneurship; (2) Strengthen African innovation ecosystems through AIF platforms & mobilize network of innovation enablers driving business development and cross-collaboration; (3) Demonstrate that African ingenuity exists at a Pan African level by honouring outstanding innovations, recognizing their positive impact.",
+        "mapFileName" : "int_global.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,2],
+        "sectorIDs": [4,5,10],
+        "sectors": [],
+        "partners" : "The Foundation lists 20+ institutional partners (innovation hubs and labs). The Innotation Prize in Africa (IPA) platform has a network of 9400+ African innovators spanning 55 countries.",
+        "countries" : "The IPA is a network of 9400+ African innovators in 55 countries; the Foundation also has a presence in Angola."
+      }
+    ]
+  },
+  {
+    "id" : 9,
+    "name" : "Africa Investor",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Forum/convening organisation",
+    "geography" : "International",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Africa's infrastructure co-investment platform",
+        "type" : "Forum/platform",
+        "description" : "",
+        "objective" : "To align its client based with vetted infrastructure, private equity and technology opportunities in Africa.",
+        "mapFileName" : "africa.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [2],
+        "sectorIDs": [4,10,14],
+        "sectors": [],
+        "partners" : "Ai Capital",
+        "countries" : "Africa"
+      }
+    ]
+  },
+  {
+    "id" : 10,
+    "name" : "Africa50 Investment Fund",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Finance facility/Fund",
+    "geography" : "Regional (Africa) ",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Infrastructure investment platform",
+        "type" : "Forum/platform",
+        "description" : "",
+        "objective" : "(1) Improve infrastructure in Africa by developing bankable projects and catalyzing investments into shareholder countries; (2) Leverage public funds to raise private capital from long term institutional investors in Africa and elsewhere; (3) Operate commercially with an appropriate financial return while promoting economic development.",
+        "mapFileName" : "africa.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,2],
+        "sectorIDs": [7,9,10,11,14],
+        "sectors": [],
+        "partners" : "Established by AfDB. Africa50 is owned by 27 governments, two central banks and the AfDB. Sovereign shareholders are: Benin, Burkina Faso, Cameroon, Democratic Republic of Congo, Djibouti, Egypt, Gabon, Gambia, Ghana, Guinea, Ivory Coast, Kenya, Madagascar, Malawi, Mali, Mauritania, Mauritius, Morocco, Niger, Nigeria, Republic of Congo, Rwanda, Senegal, Sierra Leone, Sudan, Togo, and Tunisia. The banks are the Central Bank of West African States (BCEAO) and Bank Al-Maghrib. ",
+        "countries" : "Africa"
+      }
+    ]
+  },
+  {
+    "id" : 11,
+    "name" : "African Infrastructure Investment Managers (AIIM)",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Private sector",
+    "geography" : "Regional (Africa) ",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Developing and managing private equity infrastructure funds",
+        "type" : "Private sector services",
+        "description" : "",
+        "objective" : "Sustainable investment in infrastructure. ",
+        "mapFileName" : "sew_africa.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1],
+        "sectorIDs": [14],
+        "sectors": [],
+        "partners" : "Initially established in 2000 as a 50/50 joint venture, AIIM combined the experience of the South African financial institutions, Old Mutual, with one of the world's leading infrastructure investment managers, Macquarie. In 2015, Old Mutual Alternative Investments (OMAI) acquired Macquarie's 50% shareholding in AIIM, making it the sole shareholder.",
+        "countries" : "East, West and Southern Africa"
+      }
+    ]
+  },
+  {
+    "id" : 12,
+    "name" : "African Rainbow Capital Investments",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Private sector",
+    "geography" : "National",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Capital raising and investment",
+        "type" : "Private sector services",
+        "description" : "",
+        "objective" : "To provide capital raising and investment services, and to undertake some public benefit activities.",
+        "mapFileName" : "subsah_africa.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1],
+        "sectorIDs": [4,6,10,11,13,14],
+        "sectors": [],
+        "partners" : "Numerous investments; partners not specified.",
+        "countries" : "Sub-Saharan Africa (with a focus on South Africa)"
+      }
+    ]
+  },
+  {
+    "id" : 13,
+    "name" : "African Trade and Insurance (ATI) Agency",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Public sector",
+    "geography" : "Regional (Africa) ",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Insurance and risk mitigation",
+        "type" : "Instruments",
+        "description" : "",
+        "objective" : "To pave the way for foreign lenders to comfortably invest in Africa. ",
+        "mapFileName" : "int_global.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1],
+        "sectorIDs": [5,11,14],
+        "sectors": [],
+        "partners" : "The ATI has received funding and technical support from the World Bank and later, the African Development Bank. Other partners include African and International lenders and corporates, contractors, exporters and importers, government agencies, insurers, reinsurers and investors. Institutional members include: AfDB, African Reinsurance Corporation, Atradius Group, Ministry of Finance India (represented by ECGC), SACE, COMESA, The Eastern and Southern African Trade and Development Bank (TDB), Kenya Re, The PTA Reinsurance Company (Zep Re), UK Export Finance. ",
+        "countries" : "Various African member and prospective member countries"
+      }
+    ]
+  },
+  {
+    "id" : 14,
+    "name" : "The Allianz Group ",
+    "SDIP" : true,
+    "description" : "",
+    "type" : "Private sector",
+    "geography" : "International",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Funding for the Emerging Africa Infrastructure Fund",
+        "type" : "Private sector services",
+        "description" : "",
+        "objective" : "To contribute to development as responsible corporate citizens, and through their global investments.",
+        "mapFileName" : "int_global.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1],
+        "sectorIDs": [5,6],
+        "sectors": [],
+        "partners" : "Allianz Africa has offices in 14 countries; there are other Allianz Group offices in Egypt (Allianz Egypt), South Africa (AGCS South Africa) and Mauritius (Allianz Partners). Allianz works with a network of other insurance companies in much of the rest of Africa.",
+        "countries" : "Present in 17 countries, operating in 39 markets (14 Allianz Africa offices: Bénin, Burkina Faso, Cameroon, Centrafrique, Congo, Côte d’Ivoire, Ghana, Kenya, Madagascar, Mali, Morocco, Nigeria, Senegal and Togo; also Egypt, South Africa and Mauritius)."
+      }
+    ]
+  },
+  {
+    "id" : 15,
+    "name" : "Align 17",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Private sector",
+    "geography" : "International",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Digitial marketplace",
+        "type" : "Forum/platform",
+        "description" : "",
+        "objective" : "Empowering a new generation of private investors to become catalysts for positive change. ",
+        "mapFileName" : "int_global.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [3],
+        "sectorIDs": [3,4,5,6,7,8,9,10,11,12,13,14],
+        "sectors": [],
+        "partners" : "Not specified.",
+        "countries" : "International"
+      }
+    ]
+  },
+  {
+    "id" : 16,
+    "name" : "Amethis",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Private sector",
+    "geography" : "Regional (Africa) ",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Growth capital",
+        "type" : "Finance facility/fund",
+        "description" : "",
+        "objective" : "Sustainable development.",
+        "mapFileName" : "africa.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1],
+        "sectorIDs": [2,14],
+        "sectors": [],
+        "partners" : "Amethis is a partnership between its two founders, Luc Rigouzzo and Laurent Demey, and Edmond de Rothschild Private Equity, a subsidiary of the Edmond the Rothschild Group based in Geneva, Switzerland.",
+        "countries" : "Africa - 22 portfolio companies with footprint in more than 20 countries."
+      }
+    ]
+  },
+  {
+    "id" : 17,
+    "name" : "Arab Bank for Economic Development in Africa (BADEA)",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Development finance institution (DFI)",
+    "geography" : "Regional (Africa) ",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Private sector financing programme and the foreign trade financing programme, approved under the 7th Five Year Plan.",
+        "type" : "Programme/service area",
+        "description" : "",
+        "objective" : "To strengthen cooperation between the African and Arab regions and promote development within Africa by financing development projects and providing technical assistance.",
+        "mapFileName" : "africa.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,2],
+        "sectorIDs": [2,3,5,7,12,13,14],
+        "sectors": [],
+        "partners" : "BADEA includes most members of the Arab League. In addition to the African beneficiary governments, BADEA is a member of the Arab and Regional Coordination Group. It also works closely with strategic partners including multilateral and bilateral development agencies and such regional and international agencies as the African Development Bank (AfDB) and the World Bank.",
+        "countries" : "Africa"
+      }
+    ]
+  },
+  {
+    "id" : 18,
+    "name" : "Asian Development Bank (ADB)",
+    "SDIP" : true,
+    "description" : "",
+    "type" : "Development finance institution (DFI)",
+    "geography" : "Regional (Asia)",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "High Level Technology Fund",
+        "type" : "Finance facility/fund",
+        "description" : "",
+        "objective" : "Enable technological development and/or the scaling up of the technology deployment in the recipient country.",
+        "mapFileName" : "adb_dev.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1],
+        "sectorIDs": [7,9,11],
+        "sectors": [],
+        "partners" : "Government of Japan",
+        "countries" : "ADB developing member countries. There are currently none in Africa."
+      }
+    ]
+  },
+  {
+    "id" : 19,
+    "name" : "Asia Infrastructure Investment Bank (AIIB)",
+    "SDIP" : true,
+    "description" : "",
+    "type" : "Development finance institution (DFI)",
+    "geography" : "Regional (Asia)",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Financing operations in non-regional members; strategy to mobilise private sector finance,",
+        "type" : "Strategy/approach",
+        "description" : "",
+        "objective" : "To improve social and economic outcomes in Asia by investing in infrastructure development.",
+        "mapFileName" : "aiib.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1],
+        "sectorIDs": [7,9,10,11,14],
+        "sectors": [],
+        "partners" : "AIIB has a co-financing framework agreement with the World Bank, and Memorandums on joint cooperation & co-financing with: African Development Bank, African Development Fund, Asian Development Bank, Eurasian Development Bank, European Bank for Reconstruction and Development, Eurasian Development Bank, European Investment Bank, Inter-American Development Bank & Inter-American Investment Corporation, the Islamic Development Bank Group (IsDB Group), the New Development Bank and the World Bank Group. AIIB also partners with private financial institutions and cooperates with other partners in the public and non-governmental sectors. ",
+        "countries" : "Approved projects in Egypt as well as in other regional member countries. Other African members: Ethiopia, Madagascar, Sudan. Prospective members: Algeria, Ghana, Guinea, Kenya, Libya, Morocco, South Africa, Togo, Tunisia."
+      }
+    ]
+  },
+  {
+    "id" : 20,
+    "name" : "Association of African Development Finance Institutions (AADFI)",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Forum/convening organisation",
+    "geography" : "Regional (Africa) ",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "MOU with Convergence Blended Finance",
+        "type" : "Initiative",
+        "description" : "",
+        "objective" : "To collaborate to attract more investment to Africa through blended finance by raising awareness among and providing support to DFIs in the region.",
+        "mapFileName" : "africa.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [2],
+        "sectorIDs": [4,5,13,14],
+        "sectors": [],
+        "partners" : "Convergence",
+        "countries" : "Members of AADFI"
+      }
+    ]
+  },
+  {
+    "id" : 21,
+    "name" : "Association for the Development of Energy in Africa (Adea)",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Forum/convening organisation",
+    "geography" : "Regional (Africa) ",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Energy for Africa ",
+        "type" : "Research/publications",
+        "description" : "",
+        "objective" : " To break the vicious cycle which currently dominates the sector and to search for ways and means which would enable the integration of excluded populations into the commercial system, which is necessary to make development possible.",
+        "mapFileName" : "africa.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [3],
+        "sectorIDs": [4,11],
+        "sectors": [],
+        "partners" : "Paid membership",
+        "countries" : "Africa"
+      }
+    ]
+  },
+  {
+    "id" : 22,
+    "name" : "Merrill Lynch (BAML)",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Private sector",
+    "geography" : "International",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Impact investing",
+        "type" : "Private sector services",
+        "description" : "",
+        "objective" : "Sustainable investment. ",
+        "mapFileName" : "int_global.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1],
+        "sectorIDs": [2],
+        "sectors": [],
+        "partners" : "Bank of America",
+        "countries" : "International"
+      }
+    ]
+  },
+  {
+    "id" : 23,
+    "name" : "Banque de developpement des États de l'Afrique centrale (BDEAC), Development Bank of Central African States",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Development finance institution (DFI)",
+    "geography" : "Regional (sub-region within Africa)",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Memorandum of Understanding with the African Export-Import Bank (Afreximbank)",
+        "type" : "Collaboration/ Partnership",
+        "description" : "",
+        "objective" : " To harmonize their efforts in the promotion of trade and regional integration.",
+        "mapFileName" : "c_africa.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,2],
+        "sectorIDs": [5],
+        "sectors": [],
+        "partners" : "African Export-Import Bank (Afreximbank) ",
+        "countries" : "Central African countries (Cameroon, Central African Republic, Congo, Gabon, Equatorial Guinea and Chad)"
+      }
+    ]
+  },
+  {
+    "id" : 24,
+    "name" : "Baraka Impact Finance",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Private sector",
+    "geography" : "International",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "BarakaNetworks, a data-driven global health impact investment platform.",
+        "type" : "Forum/platform",
+        "description" : "",
+        "objective" : "To bring financing to the global health sector. ",
+        "mapFileName" : "int_global.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1],
+        "sectorIDs": [12],
+        "sectors": [],
+        "partners" : "Not specified, but the platform builds on the Artha Network platform.",
+        "countries" : "Not specified"
+      }
+    ]
+  },
+  {
+    "id" : 25,
+    "name" : "BIGEN Africa Group",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Private sector",
+    "geography" : "Regional (Africa) ",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Approach to infrastructure development; BIGEN emphasises social and economic development impacts, and aims to ensure that projects benefit local communities as well as clients and stakeholders",
+        "type" : "Strategy/approach",
+        "description" : "",
+        "objective" : "Doing good while doing business",
+        "mapFileName" : "africa.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [2],
+        "sectorIDs": [4,7,9,11,12],
+        "sectors": [],
+        "partners" : "Financial services are provided in partnership with CRESCO; environmental services in partnership with Nemai Consulting; institutional risk management services are led by Africa Practice. Bigen also reports working collectively work with governments, the private sector, communities and civil society to improve living conditions and resource use without undermining the integrity and stability of the natural systems.",
+        "countries" : "The Group has a regional footprint in more than 19 countries in Africa. Offices in South Africa, Ghana, Namibia, Botswana, Zambia and Mauritius; projects also in DRC, Rwanda and Kenya."
+      }
+    ]
+  },
+  {
+    "id" : 26,
+    "name" : "BlackRock Inc",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Private sector",
+    "geography" : "International",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Sustainable investing",
+        "type" : "Approach/strategy",
+        "description" : "",
+        "objective" : "To incorporate business-relevant sustainability considerations into their investment research, portfolio construction, and stewardship processes to enhance long-term risk adjusted returns for their clients.",
+        "mapFileName" : "int_global.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1],
+        "sectorIDs": [2,11,14],
+        "sectors": [],
+        "partners" : "BlackRock works with companies they invest in on governance issues; they also work with non-profits and others on social impact projects.",
+        "countries" : "International"
+      }
+    ]
+  },
+  {
+    "id" : 27,
+    "name" : "BlueOrchard",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Private sector",
+    "geography" : "International",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Impact investment",
+        "type" : "Approach/strategy",
+        "description" : "",
+        "objective" : "Impact investing. ",
+        "mapFileName" : "int_global.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,2],
+        "sectorIDs": [6,8,9,11,14],
+        "sectors": [],
+        "partners" : "BlueOrchard partners with a number of major development institutions and other key players. Partners in blended finance structures include DFIs, multi-lateral banks (MDBs), bilateral organizations, and foundations. ",
+        "countries" : "BlueOrchard has invested more than USD 6 billion in over 475 institutions across 80 countries. "
+      }
+    ]
+  },
+  {
+    "id" : 28,
+    "name" : "Belgian Investment Company for Developing Countries (BIO)",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Private sector",
+    "geography" : "International",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Sustainable investing",
+        "type" : "Approach/strategy",
+        "description" : "",
+        "objective" : "The core of BIO’s mission to invest in private sector projects is to contribute in a structural and positive way to the socio-economic growth of the host countries and their population, aligned with SDG 1 No Poverty.",
+        "mapFileName" : "int_global.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1],
+        "sectorIDs": [1],
+        "sectors": [],
+        "partners" : "BIO relies on partners to benefit from their experience and presence on the ground as well as to run co-financing projects. Includes EDFI, other donors and international financing institutions such as the International Finance Corporation (IFC), the European Investment Bank (EIB), and TCX etc.",
+        "countries" : "Developing and emerging countries"
+      }
+    ]
+  },
+  {
+    "id" : 29,
+    "name" : "BMZ",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Public sector",
+    "geography" : "International",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Bilateral co-operation within sub-Saharan Africa; A Marshall Plan with Africa; cooperation with the African Union",
+        "type" : "Initiative",
+        "description" : "",
+        "objective" : "Support for international development. ",
+        "mapFileName" : "africa.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,2,3],
+        "sectorIDs": [2,5,8],
+        "sectors": [],
+        "partners" : "BMZ cooperates with international organizations involved in development including the International Monetary Fund, World Bank, and the United Nations. ",
+        "countries" : "Africa"
+      }
+    ]
+  },
+  {
+    "id" : 30,
+    "name" : "Business and Sustainable Development Commission (BSDC)",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Commission",
+    "geography" : "International",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Blended Finance Task Force",
+        "type" : "Initiative",
+        "description" : "",
+        "objective" : "Mobilising private capital for the SDGs. ",
+        "mapFileName" : "int_global.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,3],
+        "sectorIDs": [8,14],
+        "sectors": [],
+        "partners" : "The Action Programme is championed by leaders from across the investment and development finance community including HSBC, Credit Suisse, Aviva, Investec, Allianz, EBRD, the IFC and the Rockefeller Foundation. ",
+        "countries" : "International"
+      }
+    ]
+  },
+  {
+    "id" : 31,
+    "name" : "Carlyle Group (The)",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Private sector",
+    "geography" : "International",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Responsible investing, environmental stewardship",
+        "type" : "Approach/strategy",
+        "description" : "",
+        "objective" : "Value creation. ",
+        "mapFileName" : "int_global.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1],
+        "sectorIDs": [4,6,7,10,11,12,14],
+        "sectors": [],
+        "partners" : "Not specified.",
+        "countries" : "Global - has two offices in Africa. "
+      }
+    ]
+  },
+  {
+    "id" : 32,
+    "name" : "Catalytic Capital Consortium ",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Forum/convening organisation",
+    "geography" : "International",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Catalytic finance initiative",
+        "type" : "Coalition/network",
+        "description" : "",
+        "objective" : "Promote use of and learning about catalytic capital in support of SDGs. ",
+        "mapFileName" : "int_global.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1],
+        "sectorIDs": [2],
+        "sectors": [],
+        "partners" : "Conceived by MacArthur Foundation; the Rockefeller Foundation and Omidyar Network joined as strategic partners.",
+        "countries" : "Spans emerging and developed markets"
+      }
+    ]
+  },
+  {
+    "id" : 33,
+    "name" : "Climate Investment Funds (CIF)",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Finance facility/fund",
+    "geography" : "International",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "The Clean Technology Fund and the Strategic Climate Fund",
+        "type" : "Finance facility/fund",
+        "description" : "",
+        "objective" : "To accelerate climate action in developing and middle income countries; bridging the financing and learning gap between now and the next international climate change agreement.",
+        "mapFileName" : "int_global.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1],
+        "sectorIDs": [8,11,13],
+        "sectors": [],
+        "partners" : "14 donor countries have contributed over $8 billion in support of scaling up mitigation and adaptation action in developing and middle-income countries, including African Development Bank. The funds are held by the World Bank.",
+        "countries" : "72 developing and middle income countries worldwide"
+      }
+    ]
+  },
+  {
+    "id" : 34,
+    "name" : "Climate Investor One Fund (CIO)",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Finance facility/fund",
+    "geography" : "International",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "The Development Fund; Construction Equity Fund",
+        "type" : "Finance facility/fund",
+        "description" : "",
+        "objective" : "Catalyisng impact investment for renewable energy. ",
+        "mapFileName" : "africa_asia.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,2],
+        "sectorIDs": [11],
+        "sectors": [],
+        "partners" : "Proposed by the Netherlands Development Finance Company (FMO)",
+        "countries" : "Africa, Asia, India"
+      }
+    ]
+  },
+  {
+    "id" : 35,
+    "name" : "Climate Justice and Resilience Fund (New Venture Fund)",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Finance facility/fund",
+    "geography" : "International",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Grant-making",
+        "type" : "Finance facility/fund",
+        "description" : "",
+        "objective" : "Making grants to support community-led solutions for climate resilience. ",
+        "mapFileName" : "map009.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,2],
+        "sectorIDs": [8],
+        "sectors": [],
+        "partners" : "Created in 2016 through a grant from the Oak Foundation, it is a project of New Venture Fund, a public charity registered in the United States. In 2017, the Kendeda Fund became CJRF’s second member foundation. ",
+        "countries" : "East Africa, the Bay of Bengal, and the Arctic"
+      }
+    ]
+  },
+  {
+    "id" : 36,
+    "name" : "Climate Policy Initiative (CPI)",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Non-profit",
+    "geography" : "International",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Global Innovation Lab for Climate Finance",
+        "type" : "Forum/platform",
+        "description" : "",
+        "objective" : "By identifying, developing, and supporting transformative sustainable finance ideas, the Lab aims to drive billions of dollars of private investment to the low-carbon economy.",
+        "mapFileName" : "int_global.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1],
+        "sectorIDs": [8,9,11,13],
+        "sectors": [],
+        "partners" : "Funders: Australian Department of Foreign Affairs and Trade; Bloomberg Philanthropies; GIZ; IFAD; German Federal Ministry for the Environment, Nature conservation and Nuclear Safety; Netherlands Ministry of Foreign Affairs; Rockerfeller Foundation; Shakti; Department for Business, Energy & Industrial Strategy.",
+        "countries" : "International"
+      }
+    ]
+  },
+  {
+    "id" : 37,
+    "name" : "Coface (France)",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Private sector",
+    "geography" : "International",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Risk mitigation instruments (guarantees)",
+        "type" : "Instruments",
+        "description" : "",
+        "objective" : "Based on the belief that business is a force for good in the world, Coface aims to become the most agile, global trade credit insurance partner in the industry.",
+        "mapFileName" : "int_global.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1],
+        "sectorIDs": [2],
+        "sectors": [],
+
+        "partners" : "",
+        "countries" : "200 countries"
+      }
+    ]
+  },
+  {
+    "id" : 38,
+    "name" : "Collaborative for Frontier Finance",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Forum/convening organisation",
+    "geography" : "International",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Mobilising additional capital for small and growing businesses in emerging markets.",
+        "type" : "Finance facility/fund",
+        "description" : "",
+        "objective" : "To improve the financing ecosystem for early, small and growing businesses (SGBs) in emerging markets.",
+        "mapFileName" : "int_global.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,2,3],
+        "sectorIDs": [5,6],
+        "sectors": [],
+        "partners" : "CFF’s founding partners include the Dutch Good Growth Fund, Omidyar Network, and the World Bank along with incubation partner the Global Development Incubator. It is guided by a Steering Committee including its founding partners as well as funders including Argidius Foundation, DFAT, MacArthur Foundation, and Small Foundation. ",
+        "countries" : "Emerging and frontier markets"
+      }
+    ]
+  },
+  {
+    "id" : 39,
+    "name" : "COMESA",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Regional economic community",
+    "geography" : "Regional (sub-region within Africa)",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "COMESA Fund protocol (2002) for Co-operation, Compensation and Development of the Common Market for Eastern and Southern Africa",
+        "type" : "General mandate",
+        "description" : "",
+        "objective" : "Fostering physical regional connectivity and deepening infrastructure integration. ",
+        "mapFileName" : "comesa.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,3],
+        "sectorIDs": [7,10,11,14],
+        "sectors": [],
+        "partners" : "21 member states; partners include African Development Bank, European Union, World Bank and USAID. The COMESA Infrastructure Fund, a window under the COMESA Fund protocol, is managed by the Trade and Development Bank.",
+        "countries" : "Burundi, the Comoros, the Democratic Republic of Congo, Djibouti, Egypt, Eritrea, Ethiopia, Kenya, Libya, Madagascar, Malawi, Mauritius, Rwanda, Sudan, Swaziland, Seychelles, Uganda, Zambia and Zimbabwe."
+      }
+    ]
+  },
+  {
+    "id" : 40,
+    "name" : "Confluence Philanthropy",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Non-profit",
+    "geography" : "International",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Practitioners Gathering",
+        "type" : "Events",
+        "description" : "",
+        "objective" : "To advance mission/values aligned investment. ",
+        "mapFileName" : "int_global.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [2],
+        "sectorIDs": [4,8],
+        "sectors": [],
+        "partners" : "Confluence is an international organization. The majority of members are based in the US and a handful in Europe, Canada, and Mexico. It was launched in 2009 as a special project of Rockefeller Philanthropy Advisors.",
+        "countries" : "International"
+      }
+    ]
+  },
+  {
+    "id" : 41,
+    "name" : "Conrad N. Hilton Foundation",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Foundation",
+    "geography" : "International",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Grant-making",
+        "type" : "Finance facility/fund",
+        "description" : "",
+        "objective" : "To improve the lives of disadvantaged and vulnerable people throughout the world. ",
+        "mapFileName" : "int_global.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,3],
+        "sectorIDs": [4,9,12],
+        "sectors": [],
+        "partners" : "Not specified.",
+        "countries" : "US and international. Safe Water: focus on sub-Saharan Africa (Burkina Faso, Ethiopia, Ghana, Mali, Niger and Uganda); support for children affected by HIV/AIDS (Kenya, Tanzania, Malawi, Zambia, Mozambique)"
+      }
+    ]
+  },
+  {
+    "id" : 42,
+    "name" : "Contour Global",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Private sector",
+    "geography" : "International",
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Social investment strategy",
+        "type" : "Strategy/approach",
+        "description" : "",
+        "objective" : "To contribute to the communities in which Contour Global's power generation businesses are located.",
+        "mapFileName" : "int_global.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1],
+        "sectorIDs": [11],
+        "sectors": [],
+        "partners" : "Not specified.",
+        "countries" : "International, includes plants in Africa (e.g. Rwanda, Nigeria)"
+      }
+    ]
+  },
+  {
+    "id" : 43,
+    "name" : "Convergence Partners",
+    "SDIP" : false,
+    "description" : "lorem loremlorem lorem ipsum dolro",
+    "type" : "Private sector",
+    "geography" : "Regional (Africa)",
+    "formsOfSupport" : [],
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Impact investment",
+        "type" : "Private sector services",
+        "description" : "",
+        "objective" : "Developing businesses in the TMT sector to deliver enhanced returns while underpinning development on the African continent.",
+        "mapFileName" : "africa.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1],
+        "sectorIDs": [10],
+        "sectors": [],
+        "partners" : "Not specified.",
+        "countries" : "Africa"
+      }
+    ]
+  },
+  {
+    "id" : 44,
+    "name" : "Cordaid",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Development agency",
+    "geography" : "International",
+    "formsOfSupport" : [],
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Providing humanitarian assistance and development aid.",
+        "type" : "General mandate",
+        "description" : "",
+        "objective" : "To reduce fragility and the vulnerability of people in fragile & conflict-affected societies, by linking humanitarian aid with the longer-term improvement of health care systems, economic opportunities & disaster resilience, & the promotion of security and justice.",
+        "mapFileName" : "int_global.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,2,3],
+        "sectorIDs": [4,5,12],
+        "sectors": [],
+        "partners" : "Work in collaboration with (amongst others) Caritas, the Dutch Cooperating Aid Organizations (SHO – Giro555), the Dutch Relief Alliance and local civil society organizations.",
+        "countries" : "Countries affected by violence and conflict (including Burundi, Cameroon, Central African Republic, DRC, Ethiopia, Kenya, Nigeria, Sierra Leone, South Sudan, Uganda, Zimbabwe)"
+      }
+    ]
+  },
+  {
+    "id" : 45,
+    "name" : "CREO Syndicate",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Non-profit",
+    "geography" : "International",
+    "formsOfSupport" : [],
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "CREO provides a platform that helps investors (family offices and related institutions) to share experiences, discuss common interests and explore investment opportunities across the global environmental, sustainability and 'impact' marketplace.",
+        "type" : "Forum/platform",
+        "description" : "",
+        "objective" : "To foster education, promote collaboration, accelerate investment in support of environmental solutions. ",
+        "mapFileName" : "int_global.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [2],
+        "sectorIDs": [8,11],
+        "sectors": [],
+        "partners" : "CREO works with a broad set of global stakeholders, including Members (wealth owners and family offices), Friends (aligned investors such as pension funds and university endowments), and Partners (government, not-for-profit organizations and academia). CREO and Confluence Philanthropy have partnered to produce The Climate Solutions Collaborative.",
+        "countries" : "Not specified"
+      }
+    ]
+  },
+  {
+    "id" : 46,
+    "name" : "CrossBoundary Energy",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Private sector",
+    "geography" : "Regional (Africa) ",
+    "formsOfSupport" : [],
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Using finance to remove the barriers to solar adoption; funding provided through the SolarAfrica platform.",
+        "type" : "Private sector services",
+        "description" : "",
+        "objective" : "To use finance to remove barriers to solar adaptation in Africa. ",
+        "mapFileName" : "africa.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1],
+        "sectorIDs": [11,14],
+        "sectors": [],
+        "partners" : "African solar developers",
+        "countries" : "Africa (actively evaluating investments across East and West Africa)"
+      }
+    ]
+  },
+  {
+    "id" : 47,
+    "name" : "DanChurchAid",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Non-profit",
+    "geography" : "International",
+    "formsOfSupport" : [],
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Sustainable Food Platform",
+        "type" : "Forum/platform",
+        "description" : "",
+        "objective" : "To rethink market-based solutions for food and nutrition security in Africa. ",
+        "mapFileName" : "danaid.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [2],
+        "sectorIDs": [13],
+        "sectors": [],
+        "partners" : "Led by DanChurchAid, along with Arla Foods Ingredients",
+        "countries" : "The main country focus will be on Ethiopia with cross links made to Kenya and Uganda to enable scale-up and replication."
+      }
+    ]
+  },
+  {
+    "id" : 48,
+    "name" : "Danish Agribusiness Fund (IFU)",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Development finance institution (DFI)",
+    "geography" : "International",
+    "formsOfSupport" : [],
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Risk capital and advice for agri-business projects in developing countries and emerging markets.",
+        "type" : "Finance facility/fund",
+        "description" : "",
+        "objective" : "To secure funding for agriculture and food projects in developing countries and emerging markets and to promote the sale of Danish technology and know-how.",
+        "mapFileName" : "int_global.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,2],
+        "sectorIDs": [13],
+        "sectors": [],
+        "partners" : "The Danish Argibusiness Fund is managed by IFU.",
+        "countries" : "Developing countries and emerging markets covering Asia, Africa, Latin America and Central and Eastern Europe"
+      }
+    ]
+  },
+  {
+    "id" : 49,
+    "name" : "Danish Climate Investment Fund (DCIF, IFU)",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Development finance institution (DFI)",
+    "geography" : "International",
+    "formsOfSupport" : [],
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Risk capital and advice for climate-related projects, investments.",
+        "type" : "Finance facility/fund",
+        "description" : "",
+        "objective" : "To reduce greenhouse gases and to promote the sale of Danish technology and know-how.",
+        "mapFileName" : "int_global.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,2],
+        "sectorIDs": [8],
+        "sectors": [],
+        "partners" : "The Danish Climate Investment Fund is managed by IFU.",
+        "countries" : "More than 140 countries in Asia, Africa, Latin America, parts of Europe"
+      }
+    ]
+  },
+  {
+    "id" : 50,
+    "name" : "Danish Refugee Council",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Non-profit",
+    "geography" : "International",
+    "formsOfSupport" : [],
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Humanitarian, development and peace-building activities.",
+        "type" : "Projects",
+        "description" : "",
+        "objective" : "To ensure a dignified life for refugees, the displaced, and displacement-affected people and communities.",
+        "mapFileName" : "int_global.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,2,3],
+        "sectorIDs": [2,3,9,13,14],
+        "sectors": [],
+        "partners" : "DRC is an umbrella organisation consisting of members broadly representing civil society organisations.",
+        "countries" : "30 countries internationally, including countries in East Africa & Great Lakes, North Africa and West Africa"
+      }
+    ]
+  },
+  {
+    "id" : 51,
+    "name" : "Danish SDG Investment Fund",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Development finance institution (DFI)",
+    "geography" : "International",
+    "formsOfSupport" : [],
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Risk capital in support of the SDGs.",
+        "type" : "Finance facility/fund",
+        "description" : "",
+        "objective" : "To contribute to the realisation of the SDGs and promote Danish expertise and business.",
+        "mapFileName" : "int_global.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1],
+        "sectorIDs": [2,14],
+        "sectors": [],
+        "partners" : "A public-private partnership funded by the Danish state, the Investment Fund for Developing Countries (IFU) and several private investors, including PKA, PensionDanmark, PFA, ATP, JØP/DIP, Pensam and Navest. IFU is the fund manager.",
+        "countries" : "Developing countries and emerging markets covering Asia, Africa, Latin America and Central and Eastern Europe"
+      }
+    ]
+  },
+  {
+    "id" : 52,
+    "name" : "Development Initiatives",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Development agency",
+    "geography" : "International ",
+    "formsOfSupport" : [],
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Development Data Hub",
+        "type" : "Tools",
+        "description" : "",
+        "objective" : "Provide rigorous information to support better decisions, influence policy outcomes, increase accountability and strengthen the use of data to eradicate poverty.",
+        "mapFileName" : "int_global.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [3],
+        "sectorIDs": [4],
+        "sectors": [],
+        "partners" : "Private foundations (including the Bill & Melinda Gates Foundation, the William and Flora Hewlett Foundation), and national governments (including Canada, the Netherlands, Sweden and the UK).",
+        "countries" : "Global"
+      }
+    ]
+  },
+  {
+    "id" : 53,
+    "name" : "East African Community (EAC) ",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Regional economic community",
+    "geography" : "Regional (sub-region within Africa)",
+    "formsOfSupport" : [],
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Support for regional development through integration.",
+        "type" : "General mandate",
+        "description" : "",
+        "objective" : "To widen and deepen co-operation among the Partner States in political, economic and social spheres for their mutual benefit. ",
+        "mapFileName" : "eca.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [3],
+        "sectorIDs": [3,4,5,11,13,14],
+        "sectors": [],
+        "partners" : "Members: Burundi, Kenya, Rwanda, South Sudan, Tanzania, and Uganda.",
+        "countries" : "Member states: Burundi, Kenya, Rwanda, South Sudan, Tanzania, and Uganda"
+      }
+    ]
+  },
+  {
+    "id" : 54,
+    "name" : "East Capital",
+    "SDIP" : true,
+    "description" : "",
+    "type" : "Private sector",
+    "geography" : "International",
+    "formsOfSupport" : [],
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "None in Africa",
+        "type" : "None in Africa",
+        "description" : "",
+        "objective" : "Profit.",
+        "mapFileName" : "int_global.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1],
+        "sectorIDs": [2],
+        "sectors": [],
+        "partners" : "Not specified.",
+        "countries" : "Frontier markets"
+      }
+    ]
+  },
+  {
+    "id" : 55,
+    "name" : "Eastspring Investments",
+    "SDIP" : true,
+    "description" : "",
+    "type" : "Private sector",
+    "geography" : "Regional (Asia)",
+    "formsOfSupport" : [],
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Investments (equity)",
+        "type" : "Instruments",
+        "description" : "",
+        "objective" : "Private sector investment, profit. ",
+        "mapFileName" : "int_global.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1],
+        "sectorIDs": [2],
+        "sectors": [],
+        "partners" : "Not specified.",
+        "countries" : "Primarily Asia"
+      }
+    ]
+  },
+  {
+    "id" : 56,
+    "name" : "Economic Community of West African States (ECOWAS)",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Regional economic community",
+    "geography" : "Regional (sub-region within Africa)",
+    "formsOfSupport" : [],
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Support for regional development through integration. v2",
+        "type" : "General mandate",
+        "description" : "",
+        "objective" : "To promote economic integration in all fields of activity of the constituting countries.",
+        "mapFileName" : "ecowas.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [3],
+        "sectorIDs": [4,5,7,10,11,13,14],
+        "sectors": [],
+        "partners" : "Member countries: Burkina Faso, Cape Verde, Cote d’ Ivoire, The Gambia, Ghana, Guinea, Guinea Bissau, Liberia, Mali, Niger, Nigeria, Sierra Leone, Senegal and Togo.",
+        "countries" : "15 West African member states"
+      }
+    ]
+  },
+  {
+    "id" : 57,
+    "name" : "eleQtra Ltd",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Private sector",
+    "geography" : "Regional (Africa) ",
+    "formsOfSupport" : [],
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Development, investment, management of private infrastructure.",
+        "type" : "Private sector services",
+        "description" : "",
+        "objective" : "Infrastructure development for profit. ",
+        "mapFileName" : "eleqtra.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1],
+        "sectorIDs": [7,9,11,14],
+        "sectors": [],
+        "partners" : "eleQtra is the principal developer of InfraCo Africa. InfraCo Africa is owned by the Private Infrastructure Development Group (PIDG).",
+        "countries" : "Includes Cape Verde, Ghana, Kenya, Liberia, Mozambique, Senegal, Uganda, Zambia"
+      }
+    ]
+  },
+  {
+    "id" : 58,
+    "name" : "Emerging Capital Partners",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Private sector",
+    "geography" : "Regional (Africa) ",
+    "formsOfSupport" : [],
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Growth capital",
+        "type" : "Private sector services",
+        "description" : "",
+        "objective" : "To raise growth capital for investment in Africa. ",
+        "mapFileName" : "africa.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1],
+        "sectorIDs": [6,10,14],
+        "sectors": [],
+        "partners" : "ECP works in collaboration with AVCA, the Corporate Council on Africa, EMPEA and SAVCA.",
+        "countries" : "44 countries in Africa"
+      }
+    ]
+  },
+  {
+    "id" : 59,
+    "name" : "Emerging Markets Private Equity Association (EMPEA)",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Forum/convening organisation",
+    "geography" : "International",
+    "formsOfSupport" : [],
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Networking, education, advocacy",
+        "type" : "Forum/platform",
+        "description" : "",
+        "objective" : "Support for private capital in emerging markets.",
+        "mapFileName" : "africa.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [2],
+        "sectorIDs": [2],
+        "sectors": [],
+        "partners" : "EMPEA has 300+ member firms, representing every geographic region of the world and every type of private capital fund. ",
+        "countries" : "Africa - countries not specified"
+      }
+    ]
+  },
+  {
+    "id" : 60,
+    "name" : "Energy 4 Impact",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Non-profit",
+    "geography" : "Regional (Africa)",
+    "formsOfSupport" : [],
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Enterprise support, financing, promoting innovation",
+        "type" : "Programme/service area",
+        "description" : "",
+        "objective" : "To provide access to energy as a means to address pressing development issues. ",
+        "mapFileName" : "e_w_africa.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,2],
+        "sectorIDs": [11],
+        "sectors": [],
+        "partners" : "Energy 4 Impact, evolved from a partnership between World Bank, UNDP and other bi-lateral donors, launched at the 2002 World Summit for Sustainable Development. Current partners include: The Adventure Project, AfDB, Africa-EU Energy Partnership, Barclays, EEP, Energia, European Commission, Global Alliance for Clean Cookstoves, Garfield Weston Foundation, IFC, OFID, Power Africa, Sustainable Energy for All, SIDA, UKAID, United Nations Foundation, USAID, Department of State USA, Vitol, Wood Mackenzie.",
+        "countries" : "East and West Africa (including Kenya, Tanzania, Rwanda, Senegal and Burkina Faso)"
+      }
+    ]
+  },
+  {
+    "id" : 61,
+    "name" : "Export Development Canada (EDC)",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Bilateral development agency",
+    "geography" : "International ",
+    "formsOfSupport" : [],
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Risk mitigation instruments (guarantees)",
+        "type" : "Instruments",
+        "description" : "",
+        "objective" : "To support and develop Canada’s export trade by helping Canadian companies respond to international business opportunities.",
+        "mapFileName" : "int_global.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1],
+        "sectorIDs": [5],
+        "sectors": [],
+        "partners" : "EDC emphasises working in partnership. Much of their business is done in partnership with other financial institutions and through collaboration with the Government of Canada. Alliance members include Business Development Bank of Canada, Canadian Trade Commissioner Service, Chartered Professional Accountants, eShipper, Farm Credit Canada, Forum for International Trade Training. In 2017, EDC was entrusted by the Government of Canada to create a Canadian development finance institution (DFI) as a subsidiary of EDC (see separate entry).",
+        "countries" : "International, including numerous African countries"
+      }
+    ]
+  },
+  {
+    "id" : 62,
+    "name" : "Finance & Competence",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Private sector",
+    "geography" : "Regional (Africa) ",
+    "formsOfSupport" : [],
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Funding Agent Brokerage",
+        "type" : "Programme/service area",
+        "description" : "",
+        "objective" : "To provide a professional intermediary service in both finance and funding for viable business and business projects across Africa and to also contribute with significance to the development and growth of Africa and its people.",
+        "mapFileName" : "sew_africa.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1],
+        "sectorIDs": [9,10,11,13],
+        "sectors": [],
+        "partners" : "F&C work predominantly with funders in the Nordic countries but are able to provide opportunities for businesses to benefit from funding and finance from the various EU funding programs as well as EU member states, US, Russia, India, China and Middle East.",
+        "countries" : "South, East and West Africa"
+      }
+    ]
+  },
+  {
+    "id" : 63,
+    "name" : "Finnfund ",
+    "SDIP" : false,
+    "description" : "",
+    "type" : "Development finance institution (DFI)",
+    "geography" : "International",
+    "formsOfSupport" : [],
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Investment in profitable business projects when they advance sustainable development.",
+        "type" : "General mandate",
+        "description" : "",
+        "objective" : "To support the achievement of the SDGs through supporting sustainable businesses in developing countries.",
+        "mapFileName" : "int_global.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1],
+        "sectorIDs": [5,6,8,11,13],
+        "sectors": [],
+        "partners" : "Finnfund is owned by the Finnish State (94.1%), Finnvera (5.8%), and the Confederation of Industries (0.1%).",
+        "countries" : "Developing countries (20 of 26 investments in 2018 were in Africa)"
+      }
+    ]
+  },
+  {
+    "id" : 64,
+    "name" : "African Development Bank (AfDB)",
+    "SDIP" : false,
+    "description" : "A regional multilateral development finance institution promoting sustainable economic and social development in its 54 regional member states, thus contributing to poverty reduction. To do so, the Bank mobilizes and allocates resources for investment in African countries and provides policy advice & technical assistance to support development efforts. The AfDB Group comprises three entities: The African Development Bank, the African Development Fund (concessional window of the AfDB) and the Nigeria Trust Fund.",
+    "type" : "Multilateral DFI",
+    "geography" : "Regional (Africa)",
+    "formsOfSupport" : [],
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Private Sector Operations",
+        "type" : "Programme",
+        "description" : "The AAfDB’s Private Sector Operations support private sector development in Africa at two levels: (a) Assisting African governments to improve a business enabling environment; (b) Creating demonstration effects by assisting entrepreneurs to achieve success with a select number of transactions. Activities comprise non-sovereign guaranteed (NSG) lending activities in industries & services, PPPs & infrastructure; and non-lending activities, including studies, initiatives and new programs. Bank",
+        "objective" : "To support private sector development in Africa",
+        "mapFileName" : "afdb.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,2,3],
+        "sectorIDs": [4,5,6,7,8,9,11,12],
+        "sectors": [],
+        "partners" : "Convening partners for the 2018 Forum included: AfDB, Gauteng Provincial Government, Invest SA, Africa 50, Afrexim Bank, European Investment Bank, AFC, DBSA, TDB, Islamic Development Bank. Sponsors included Harith, ABR, Petrolin, SimmonsCooper Partners, Economic Development Board (Mauritius), Power Africa, Millenium Challenge Corporation, Patagonian Tech, IDB.",
+        "countries" : "2018 Africa Investment Forum attracted 1 943 participants representing 87 countries, and 400 investors from 52 countries."
+      },
+      {
+        "id" : 2,
+        "name" : "African Investment Forum",
+        "type" : "Platform/event",
+        "description" : "The AfricaThe Africa Investment Forum is a co-guarantee and co-financing platform, bringing together project sponsors, borrowers, lenders, and public and private sector investors to raise capital and accelerate investment to transform Africa’s economic, agricultural and industrial sectors. It is an annual transactional investment marketplace for advancing projects to bankable stages, raising capital and accelerating the financial closure of deals. After the 2018 Forum, a Memorandum of Understanding for a",
+        "objective" : "To raise capital and accelerate investment to transform Africa’s economic, agricultural and industrial sectors",
+        "mapFileName" : "int_global.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1],
+        "sectorIDs": [3,5,13],
+        "sectors": [],
+        "partners" : "Convening partners for the 2018 Forum included: AfDB, Gauteng Provincial Government, Invest SA, Africa 50, Afrexim Bank, European Investment Bank, AFC, DBSA, TDB, Islamic Development Bank. Sponsors included Harith, ABR, Petrolin, SimmonsCooper Partners, Economic Development Board (Mauritius), Power Africa, Millenium Challenge Corporation, Patagonian Tech, IDB.",
+        "countries" : "2018 Africa Investment Forum attracted 1 943 participants representing 87 countries, and 400 investors from 52 countries."
+      },
+      {
+        "id" : 3,
+        "name" : "New Deal on Energy for Africa (Light up & power Africa)",
+        "type" : "Initiative",
+        "description" : "The AfA partnership-driven effort with the goal of achieving universal access to energy in Africa by 2025. AfDB works with governments, the private sector, and bilateral and multilateral energy sector initiatives to develop a Transformative Partnership on Energy for Africa. This is a platform for public-private partnerships for innovative financing in Africa’s energy sector. Focused on 5 key principles: (a) raising aspirations to solve Africa's energy challenges; (b) establishing a Transformative",
+        "objective" : "To achieve universal access to energy in Africa by 2025",
+        "mapFileName" : "afdb.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,3],
+        "sectorIDs": [8,11,14],
+        "sectors": [],
+        "partners" : "Convening partners for the 2018 Forum included: AfDB, Gauteng Provincial Government, Invest SA, Africa 50, Afrexim Bank, European Investment Bank, AFC, DBSA, TDB, Islamic Development Bank. Sponsors included Harith, ABR, Petrolin, SimmonsCooper Partners, Economic Development Board (Mauritius), Power Africa, Millenium Challenge Corporation, Patagonian Tech, IDB.",
+        "countries" : "2018 Africa Investment Forum attracted 1 943 participants representing 87 countries, and 400 investors from 52 countries."
+      },
+      {
+        "id" : 4,
+        "name" : "Industrialise Africa",
+        "type" : "Initiative",
+        "description" : "The AfTo industrialize Africa, the AfDB is committed to mobilizing capital, derisking investments for the private sector, and leveraging capital markets. The Bank has spearheaded the implementation of the High 5 Industrialize Africa priority by identifying and investing in high value industrial projects which have a catalytic effect on countries’ economies and promote the transformation of African economies. The Bank works with the private sector, providing senior debt, guarantees, technical",
+        "objective" : "To promote the industrialisation of Africa in support of development",
+        "mapFileName" : "afdb.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,2],
+        "sectorIDs": [5],
+        "sectors": [],
+        "partners" : "Convening partners for the 2018 Forum included: AfDB, Gauteng Provincial Government, Invest SA, Africa 50, Afrexim Bank, European Investment Bank, AFC, DBSA, TDB, Islamic Development Bank. Sponsors included Harith, ABR, Petrolin, SimmonsCooper Partners, Economic Development Board (Mauritius), Power Africa, Millenium Challenge Corporation, Patagonian Tech, IDB.",
+        "countries" : "2018 Africa Investment Forum attracted 1 943 participants representing 87 countries, and 400 investors from 52 countries."
+      },
+      {
+        "id" : 5,
+        "name" : "Feed Africa",
+        "type" : "Initiative",
+        "description" : "The AfAn initiative to transform African agriculture into a globally competitive, inclusive and business-oriented sector that creates wealth, generates gainful employment, and improves quality of life. The initiative seeks to transform a selection of key agricultural commodities and agro-ecological zones. Part of the Feed Africa strategy is to mobilize a well-funded private sector capable of scaling emergent agribusines successes and driving long-term sustainable agribusiness growth, with the public",
+        "objective" : "To transform agriculture in Africa to support increase food security and development",
+        "mapFileName" : "afdb.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,3],
+        "sectorIDs": [13],
+        "sectors": [],
+        "partners" : "Convening partners for the 2018 Forum included: AfDB, Gauteng Provincial Government, Invest SA, Africa 50, Afrexim Bank, European Investment Bank, AFC, DBSA, TDB, Islamic Development Bank. Sponsors included Harith, ABR, Petrolin, SimmonsCooper Partners, Economic Development Board (Mauritius), Power Africa, Millenium Challenge Corporation, Patagonian Tech, IDB.",
+        "countries" : "2018 Africa Investment Forum attracted 1 943 participants representing 87 countries, and 400 investors from 52 countries."
+      },
+      {
+        "id" : 6,
+        "name" : "Integrate Africa",
+        "type" : "Initiative",
+        "description" : "The AfWorking towards a common market based on an economic union by strengthening integration and connectivity for growth. Includes improving the business environment for private sector investment and know-how. Aims to strengthen connectivity to make progress in developing power generation, transport infrastructure, ICT and logistics, trade and investment, and financial market inclusion and integration; as well as in combining private and financial sector development across borders and using the",
+        "objective" : "To increase integration and connectivity for growth",
+        "mapFileName" : "afdb.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,3],
+        "sectorIDs": [5,6,7,10,11,14],
+        "sectors": [],
+        "partners" : "Convening partners for the 2018 Forum included: AfDB, Gauteng Provincial Government, Invest SA, Africa 50, Afrexim Bank, European Investment Bank, AFC, DBSA, TDB, Islamic Development Bank. Sponsors included Harith, ABR, Petrolin, SimmonsCooper Partners, Economic Development Board (Mauritius), Power Africa, Millenium Challenge Corporation, Patagonian Tech, IDB.",
+        "countries" : "2018 Africa Investment Forum attracted 1 943 participants representing 87 countries, and 400 investors from 52 countries."
+      },
+      {
+        "id" : 7,
+        "name" : "Joint Ministerial Committee of the Boards of Governors of the Bank and the Fund on the transfer of Real Resources to Developing Countries.",
+        "type" : "Joint Committee & Fund",
+        "description" : "The Africa InvestmThe financial structure & financing capabilities of the MDBs & IMF enable them to leverage their capital to provide finance in many forms (from grants to “blended” concessional finance to loans to guarantees to equity investment) & purposes. The non-concessional institutions/windows of the MDBs are funded efficiently by small amounts of paid-in capital, in many cases backed by callable capital. Leveraging these amounts, the banking model of the MDBs mobilizes substantial resources from the",
+        "objective" : "To mobilize funding for the achievement of all SDGs",
+        "mapFileName" : "int_global.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,2,3],
+        "sectorIDs": [5,6,7,8,9,10,11,12,13,14],
+        "sectors": [],
+        "partners" : "Convening partners for the 2018 Forum included: AfDB, Gauteng Provincial Government, Invest SA, Africa 50, Afrexim Bank, European Investment Bank, AFC, DBSA, TDB, Islamic Development Bank. Sponsors included Harith, ABR, Petrolin, SimmonsCooper Partners, Economic Development Board (Mauritius), Power Africa, Millenium Challenge Corporation, Patagonian Tech, IDB.",
+        "countries" : "2018 Africa Investment Forum attracted 1 943 participants representing 87 countries, and 400 investors from 52 countries."
+      },
+      {
+        "id" : 8,
+        "name" : "Sustainable Energy Fund for Africa (SEFA)",
+        "type" : "Fund",
+        "description" : "SEFA is a multi-donor trust fund that supports small and medium-sized renewable energy and energy efficiency projects in Africa. SEFA aims to support sustainable private-sector led economic growth in African countries through the efficient utilization of presently untapped clean energy resources. It operates under three financing windows: project preparation, equity investments and enabling environment support.",
+        "objective" : "Reliable, clean and affordable energy can contribute to strong African economies and can have a positive impact in creating employment opportunities across the continent.",
+        "mapFileName" : "africa.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,3],
+        "sectorIDs": [11],
+        "sectors": [],
+        "partners" : "Convening partners for the 2018 Forum included: AfDB, Gauteng Provincial Government, Invest SA, Africa 50, Afrexim Bank, European Investment Bank, AFC, DBSA, TDB, Islamic Development Bank. Sponsors included Harith, ABR, Petrolin, SimmonsCooper Partners, Economic Development Board (Mauritius), Power Africa, Millenium Challenge Corporation, Patagonian Tech, IDB.",
+        "countries" : "2018 Africa Investment Forum attracted 1 943 participants representing 87 countries, and 400 investors from 52 countries."
+      },
+      {
+        "id" : 9,
+        "name" : "Enhanced Private Sector Assistance for Africa (EPSAA initiative)",
+        "type" : "Initiative",
+        "description" : "The AfA multi-component, multi-donor framework for resource mobilization and development partnership to support implementation of the AfDB’s Strategy for Private Sector Development. Consists of: (a) Accelerated Co-financing Facility for Africa (ACFA, a sovereign co-financing arrangement with JICA, where JICA lends on preferential terms to borrowers under this scheme); (b) Non-sovereign Loan (NSL, a line of credit from JICA to the Bank on concessional terms for financing the Bank’s private sector",
+        "objective" : "To support the implementation of the AfDB's strategy for Private Sector Development, in support of socio-economic development in Africa",
+        "mapFileName" : "africa.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,2],
+        "sectorIDs": [5],
+        "sectors": [],
+        "partners" : "Convening partners for the 2018 Forum included: AfDB, Gauteng Provincial Government, Invest SA, Africa 50, Afrexim Bank, European Investment Bank, AFC, DBSA, TDB, Islamic Development Bank. Sponsors included Harith, ABR, Petrolin, SimmonsCooper Partners, Economic Development Board (Mauritius), Power Africa, Millenium Challenge Corporation, Patagonian Tech, IDB.",
+        "countries" : "2018 Africa Investment Forum attracted 1 943 participants representing 87 countries, and 400 investors from 52 countries."
+      },
+      {
+        "id" : 10,
+        "name" : "Rural Water Supply & Sanitation Initiative (RWSSI)",
+        "type" : "Initiative",
+        "description" : "The AfAn Africa-wide initiative hosted by the African Development Bank (AfDB). RWSSI supports rural water and sanitation projects and programs with funding for investment operations, strengthening sector processes and systems, as well as through advocacy and knowledge building. New sources of finance, and better use of existing sources, are a critical element, requiring initiatives to attract private sector and non-traditional resources in the Rural WaSH.",
+        "objective" : "To accelerate access to drinking water supply and sanitation in rural Africa in order to attain the Sustainable Development Goals (SDGs) and the African Water Vision targets",
+        "mapFileName" : "africa.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,3],
+        "sectorIDs": [9],
+        "sectors": [],
+        "partners" : "Convening partners for the 2018 Forum included: AfDB, Gauteng Provincial Government, Invest SA, Africa 50, Afrexim Bank, European Investment Bank, AFC, DBSA, TDB, Islamic Development Bank. Sponsors included Harith, ABR, Petrolin, SimmonsCooper Partners, Economic Development Board (Mauritius), Power Africa, Millenium Challenge Corporation, Patagonian Tech, IDB.",
+        "countries" : "2018 Africa Investment Forum attracted 1 943 participants representing 87 countries, and 400 investors from 52 countries."
+      },
+      {
+        "id" : 11,
+        "name" : "African Guarantee Fund (AGF) for Small and Medium-sized Enterprises",
+        "type" : "Fund",
+        "description" : "A market-friendly guarantee scheme aimed at easing access to finance for African SMEs; provides financial guarantees to financial institutions to stimulate financing to SMEs and unlock their potential to deliver inclusive growth in the region. The AGF is a public-private partnership, with other donors, development finance institutions and private investors expected to join to provide additional capital and scale up its operations. Activities include partial credit guarantees & capacity",
+        "objective" : "To ease access to finance for African SMEs",
+        "mapFileName" : "africa.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,2],
+        "sectorIDs": [5],
+        "sectors": [],
+        "partners" : "Convening partners for the 2018 Forum included: AfDB, Gauteng Provincial Government, Invest SA, Africa 50, Afrexim Bank, European Investment Bank, AFC, DBSA, TDB, Islamic Development Bank. Sponsors included Harith, ABR, Petrolin, SimmonsCooper Partners, Economic Development Board (Mauritius), Power Africa, Millenium Challenge Corporation, Patagonian Tech, IDB.",
+        "countries" : "2018 Africa Investment Forum attracted 1 943 participants representing 87 countries, and 400 investors from 52 countries."
+      },
+      {
+        "id" : 12,
+        "name" : "Somalia Infrastructure Fund",
+        "type" : "Fund",
+        "description" : "The Somalia Infrastructure Fund (SIF) is one of the financing windows under the Somalia Development and Reconstruction Facility (SDRF) of the New Deal COMPACT for Somalia. The focus of the SIF is the rehabilitation and development of infrastructure, and related skills development and institutional Capacity Building / Pipeline. The Fund takes advantage of the Bank’s existing Transition Support Facility to mobilize resources. Consists of: (a) financing of infrastructure investments in transport, energy,",
+        "objective" : "To support the development of Somalia through promoting infrastructural development",
+        "mapFileName" : "somalia.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,2,3],
+        "sectorIDs": [14],
+        "sectors": [],
+        "partners" : "Convening partners for the 2018 Forum included: AfDB, Gauteng Provincial Government, Invest SA, Africa 50, Afrexim Bank, European Investment Bank, AFC, DBSA, TDB, Islamic Development Bank. Sponsors included Harith, ABR, Petrolin, SimmonsCooper Partners, Economic Development Board (Mauritius), Power Africa, Millenium Challenge Corporation, Patagonian Tech, IDB.",
+        "countries" : "2018 Africa Investment Forum attracted 1 943 participants representing 87 countries, and 400 investors from 52 countries."
+      },
+      {
+        "id" : 13,
+        "name" : "Africa Energy Market Place (AEMP)",
+        "type" : "Event",
+        "description" : "TA collaborative investment platform created as part of the New Deal on Energy for Africa, designed to aid private investments in the energy sector using a tri-partite model that brings together governments, the private sector & development partners for action-oriented policy dialogue. AEMP Round 3 will be held 25-26 June 2019 in Abidjan, Côte d’Ivoire, extending its coverage to 11 countries by: (a) Co-creating joint action plans for the next cohort: Angola, Botswana, Democratic Republic of",
+        "objective" : "TBC",
+        "mapFileName" : "map006.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [2,3],
+        "sectorIDs": [11],
+        "sectors": [],
+        "partners" : "Convening partners for the 2018 Forum included: AfDB, Gauteng Provincial Government, Invest SA, Africa 50, Afrexim Bank, European Investment Bank, AFC, DBSA, TDB, Islamic Development Bank. Sponsors included Harith, ABR, Petrolin, SimmonsCooper Partners, Economic Development Board (Mauritius), Power Africa, Millenium Challenge Corporation, Patagonian Tech, IDB.",
+        "countries" : "2018 Africa Investment Forum attracted 1 943 participants representing 87 countries, and 400 investors from 52 countries."
+      },
+      {
+        "id" : 14,
+        "name" : "African Water Facility",
+        "type" : "Fund",
+        "description" : "The AWF provides grants and technical assistance to implement innovative water projects and raise investment for water projects throughout Africa. The AWF provides grants for project preparation, water governance and water knowledge, supporting projects designed to increase water, energy and food security, enhance regional cooperation and promote socio-economic growth in Africa. Hosted and managed by the African Development Bank (AfDB). On average each €1 contributed by the AWF has attracted",
+        "objective" : "To assist African countries to mobilize and apply resources for the Water and Sanitation sector to help enable them to successfully implement the Africa Water Vision (2025) and meet the MDGs (2015).",
+        "mapFileName" : "africa.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,2,3],
+        "sectorIDs": [9,11,13],
+        "sectors": [],
+        "partners" : "Convening partners for the 2018 Forum included: AfDB, Gauteng Provincial Government, Invest SA, Africa 50, Afrexim Bank, European Investment Bank, AFC, DBSA, TDB, Islamic Development Bank. Sponsors included Harith, ABR, Petrolin, SimmonsCooper Partners, Economic Development Board (Mauritius), Power Africa, Millenium Challenge Corporation, Patagonian Tech, IDB.",
+        "countries" : "2018 Africa Investment Forum attracted 1 943 participants representing 87 countries, and 400 investors from 52 countries."
+      },
+      {
+        "id" : 15,
+        "name" : "Agriculture Fast Track Fund",
+        "type" : "Fund",
+        "description" : "The Agriculture Fast Track (AFT) Fund is facilitating investments in agricultural infrastructure in Africa by lowering project preparation costs for AFT Grant Recipients. The AFT will provide grant funding for the initial project development costs of a range of agriculture infrastructure projects spanning the entire value chain from production to market. These can emanate from the private or public sector and from local or international businesses. The types of projects envisioned range from",
+        "objective" : "To facilitate investments in agricultural infrastructure in Africa by lowering project preparation costs for grant recipients.",
+        "mapFileName" : "map007.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1],
+        "sectorIDs": [13],
+        "sectors": [],
+        "partners" : "Convening partners for the 2018 Forum included: AfDB, Gauteng Provincial Government, Invest SA, Africa 50, Afrexim Bank, European Investment Bank, AFC, DBSA, TDB, Islamic Development Bank. Sponsors included Harith, ABR, Petrolin, SimmonsCooper Partners, Economic Development Board (Mauritius), Power Africa, Millenium Challenge Corporation, Patagonian Tech, IDB.",
+        "countries" : "2018 Africa Investment Forum attracted 1 943 participants representing 87 countries, and 400 investors from 52 countries."
+      },
+      {
+        "id" : 16,
+        "name" : "Japan-Africa Energy Initiative",
+        "type" : "Fund",
+        "description" : "The Government of Japan and AfDB signed a Letter of Intent in July 2017 to launch the Japan-Africa Energy initiaitve (JAEI) to provide support to the New Deal on Energy for Africa which aims to achieve universal access to energy by 2025. Japan will provide up to US$ 6 billion in both concessional and non-concessional finance for a variety of energy operations that will support the provision of electricity for homes, schools, hospitals, agriculture, industries and clean cooking. The Initiative",
+        "objective" : "To provide support to the New Deal on Energy for Africa which aims to achieve universal access to energy by 2025, using available energy sources and the most advanced technologies.",
+        "mapFileName" : "africa.png",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,2],
+        "sectorIDs": [11],
+        "sectors": [],
+        "partners" : "Convening partners for the 2018 Forum included: AfDB, Gauteng Provincial Government, Invest SA, Africa 50, Afrexim Bank, European Investment Bank, AFC, DBSA, TDB, Islamic Development Bank. Sponsors included Harith, ABR, Petrolin, SimmonsCooper Partners, Economic Development Board (Mauritius), Power Africa, Millenium Challenge Corporation, Patagonian Tech, IDB.",
+        "countries" : "2018 Africa Investment Forum attracted 1 943 participants representing 87 countries, and 400 investors from 52 countries."
+      }
+    ]
+  },
+  {
+    "id" : 65,
+    "SDIP" : false,
+    "name" : "Bill and Melinda Gates Foundation",
+    "description" : "A private foundation founded by Bill and Melinda Gates. In developing countries, the Gates Foundation focuses on improving people’s health and wellbeing, helping them lift themselves out of hunger and extreme poverty.",
+    "type" : "Foundation",
+    "geography" : "International",
+    "formsOfSupport" : [],
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Grant-making, funding",
+        "type" : "General mandate",
+        "description" : "Half of the Foundation's resources are devoted to efforts in Africa, working with governments, academia, the private sector, and civil society to help advance progress across the continent and share the ideas and technologies developed in Africa throughout the world. Efforts in Africa focus on programs from the international to the local level that emphasize health and nutrition; disease prevention, treatment, and research; water, sanitation, and hygiene; agriculture; financial services for the poor; and policy and advocacy. The foundation also supports the Health in Africa Fund, which invests in private sector health companies (see under IFC) in Africa, and the Global Fund, among others.",
+        "objective" : "To raise capital and accelerate investment to transform Africa’s economic, agricultural and industrial sectors",
+        "mapFileName" : "",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,2,3],
+        "sectorIDs": [6,9,12,13],
+        "sectors": [],
+        "partners" : "Convening partners for the 2018 Forum included: AfDB, Gauteng Provincial Government, Invest SA, Africa 50, Afrexim Bank, European Investment Bank, AFC, DBSA, TDB, Islamic Development Bank. Sponsors included Harith, ABR, Petrolin, SimmonsCooper Partners, Economic Development Board (Mauritius), Power Africa, Millenium Challenge Corporation, Patagonian Tech, IDB.",
+        "countries" : "2018 Africa Investment Forum attracted 1 943 participants representing 87 countries, and 400 investors from 52 countries."
+      },
+      {
+        "id" : 2,
+        "name" : "Strategic Investment Fund",
+        "type" : "Fund",
+        "description" : "Based on the belief that the private sector develops some of the most promising and innovative solutions to global problems but there is little incentive to develop products for people who can’t afford them; the Bill & Melinda Gates Foundation partners with entrepreneurs, companies, and other organizations to create incentives for private enterprise to create change for those who need it most. The SIF team use a suite of tools, including direct equity investments, fund investments, loans and credit enhancements, volume guarantees. Investments include the Global Health Investment Fund (see separate entry).",
+        "objective" : "To raise capital and accelerate investment to transform Africa’s economic, agricultural and industrial sectors",
+        "mapFileName" : "",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1],
+        "sectorIDs": [6,9,12,13],
+        "sectors": [],
+        "partners" : "Convening partners for the 2018 Forum included: AfDB, Gauteng Provincial Government, Invest SA, Africa 50, Afrexim Bank, European Investment Bank, AFC, DBSA, TDB, Islamic Development Bank. Sponsors included Harith, ABR, Petrolin, SimmonsCooper Partners, Economic Development Board (Mauritius), Power Africa, Millenium Challenge Corporation, Patagonian Tech, IDB.",
+        "countries" : "2018 Africa Investment Forum attracted 1 943 participants representing 87 countries, and 400 investors from 52 countries."
+      },
+      {
+        "id" : 3,
+        "name" : "Agricultural Development Strategy",
+        "type" : "Initiative",
+        "description" : "Strategy aims to support agricultural transformation in sub-Saharan Africa and South Asia. Investment focus: (a) Global public goods to develop new products, tools, technologies, systems, and approaches to advance inclusive agricultural transformation; (b) support for country agricultural strategies and to help drive systems innovation through country, private sector, and other in-country partnerships to enable more effective delivery of products, tools, technologies, and services; (c) Support for scaling partners to achieve impact for smallholder farmers; investing in either public or private sector platforms that provide multiple services to farmers, like producer collectives in West Africa, or working with private sector partners to develop viable business models that serve smallholders.",
+        "objective" : "To raise capital and accelerate investment to transform Africa's economic, agricultural and industrial sectors",
+        "mapFileName" : "",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [],
+        "sectorIDs": [13],
+        "sectors": [],
+        "partners" : "Convening partners for the 2018 Forum included: AfDB, Gauteng Provincial Government, Invest SA, Africa 50, Afrexim Bank, European Investment Bank, AFC, DBSA, TDB, Islamic Development Bank. Sponsors included Harith, ABR, Petrolin, SimmonsCooper Partners, Economic Development Board (Mauritius), Power Africa, Millenium Challenge Corporation, Patagonian Tech, IDB.",
+        "countries" : "2018 Africa Investment Forum attracted 1 943 participants representing 87 countries, and 400 investors from 52 countries."
+      }
+    ]
+  },
+  {
+    "id" : 66,
+    "SDIP" : false,
+    "name" : "International Development Research Centre (IDRC/ CRDI)",
+    "description" : "Canadian Federal Crown Corporation that invests in knowledge, innovation, and solution to improve lives and livelihoods in developing countries.",
+    "type" : "Research institution/think tank",
+    "geography" : "International",
+    "formsOfSupport" : [],
+    "projects" : [
+      {
+        "id" : 1,
+        "name" : "Canadian International Food Security Research Fund",
+        "type" : "Fund",
+        "description" : "Blended finance intiative that supports research work to improve food supply chains to increase nutrition in developing countries.",
+        "objective" : "To bring market-ready agricutlural innovvations to more people to improve lives and livelihoods.",
+        "mapFileName" : "",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,2],
+        "sectorIDs": [13],
+        "sectors": [],
+        "partners" : "Convening partners for the 2018 Forum included: AfDB, Gauteng Provincial Government, Invest SA, Africa 50, Afrexim Bank, European Investment Bank, AFC, DBSA, TDB, Islamic Development Bank. Sponsors included Harith, ABR, Petrolin, SimmonsCooper Partners, Economic Development Board (Mauritius), Power Africa, Millenium Challenge Corporation, Patagonian Tech, IDB.",
+        "countries" : "2018 Africa Investment Forum attracted 1 943 participants representing 87 countries, and 400 investors from 52 countries."
+      },
+      {
+        "id" : 2,
+        "name" : "Maternal and Child Health Program",
+        "type" : "Program",
+        "description" : "Researchers and decision makers working on practical solutions to challenges in health care systems that will lead to lower death rates among pregnant women and children.",
+        "objective" : "To improve health outcomes for mothers and babies in African countries",
+        "mapFileName" : "",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,2],
+        "sectorIDs": [12],
+        "sectors": [],
+        "partners" : "Convening partners for the 2018 Forum included: AfDB, Gauteng Provincial Government, Invest SA, Africa 50, Afrexim Bank, European Investment Bank, AFC, DBSA, TDB, Islamic Development Bank. Sponsors included Harith, ABR, Petrolin, SimmonsCooper Partners, Economic Development Board (Mauritius), Power Africa, Millenium Challenge Corporation, Patagonian Tech, IDB.",
+        "countries" : "2018 Africa Investment Forum attracted 1 943 participants representing 87 countries, and 400 investors from 52 countries."
+      },
+      {
+        "id" : 3,
+        "name" : "Collaborative Consortiums",
+        "type" : "Consortiums",
+        "description" : "Five collaborative consortiums on climate change in hot spots. Jointly research to inform policy and practice and helping governments in these regions to desogn and adopte new policies to better equipment local populations to adapt to climate change.",
+        "objective" : "Mitigate and adapt to climate change in countries where funding for research and adaptation does not exist.",
+        "mapFileName" : "",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,2],
+        "sectorIDs": [8],
+        "sectors": [],
+        "partners" : "Convening partners for the 2018 Forum included: AfDB, Gauteng Provincial Government, Invest SA, Africa 50, Afrexim Bank, European Investment Bank, AFC, DBSA, TDB, Islamic Development Bank. Sponsors included Harith, ABR, Petrolin, SimmonsCooper Partners, Economic Development Board (Mauritius), Power Africa, Millenium Challenge Corporation, Patagonian Tech, IDB.",
+        "countries" : "2018 Africa Investment Forum attracted 1 943 participants representing 87 countries, and 400 investors from 52 countries."
+      },
+      {
+        "id" : 4,
+        "name" : "Safe and Inclusive Cities",
+        "type" : "Program",
+        "description" : "Global program that documents the liks between urban violence, poverty and inequalities. The program proposed comprehensive solutions to reduce feelings of insecurity and the number of violent deaths in cities",
+        "objective" : "Safer cities",
+        "mapFileName" : "",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1],
+        "sectorIDs": [4],
+        "sectors": [],
+        "partners" : "Convening partners for the 2018 Forum included: AfDB, Gauteng Provincial Government, Invest SA, Africa 50, Afrexim Bank, European Investment Bank, AFC, DBSA, TDB, Islamic Development Bank. Sponsors included Harith, ABR, Petrolin, SimmonsCooper Partners, Economic Development Board (Mauritius), Power Africa, Millenium Challenge Corporation, Patagonian Tech, IDB.",
+        "countries" : "2018 Africa Investment Forum attracted 1 943 participants representing 87 countries, and 400 investors from 52 countries."
+      },
+      {
+        "id" : 5,
+        "name" : "Collaborative Adaptive Research Initiative for Africa & Asia",
+        "type" : "Initiative",
+        "description" : "Builds the resilience of vulnerbale populatons and their livelihoods in climate hot spots by supporting collaborative research on climate change adaptation to inform policy and practice. Takes a unique approach by organizing reseach around four consortia that bring together more than 450 research institutions, 18 organizatons and 40 other partners.",
+        "objective" : "Climate resilience in fragile countries",
+        "mapFileName" : "",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,2],
+        "sectorIDs": [8],
+        "sectors": [],
+        "partners" : "Convening partners for the 2018 Forum included: AfDB, Gauteng Provincial Government, Invest SA, Africa 50, Afrexim Bank, European Investment Bank, AFC, DBSA, TDB, Islamic Development Bank. Sponsors included Harith, ABR, Petrolin, SimmonsCooper Partners, Economic Development Board (Mauritius), Power Africa, Millenium Challenge Corporation, Patagonian Tech, IDB.",
+        "countries" : "2018 Africa Investment Forum attracted 1 943 participants representing 87 countries, and 400 investors from 52 countries."
+      },
+      {
+        "id" : 6,
+        "name" : "Cultivate Africa's Future (Culti AF)",
+        "type" : "Partnership",
+        "description" : "Research partnership designed to support applied research to combat huner in sub-Saharan Africa by harnessing the potential for innovation among smallhodler farmers. Also identifies ways to extent the reach of promising research to support national and regional food security effots in Africa.",
+        "objective" : "Help governments, institutions, private enterprises and farmers adopt better food security policies and pracrices.",
+        "mapFileName" : "",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,2],
+        "sectorIDs": [13],
+        "sectors": [],
+        "partners" : "Convening partners for the 2018 Forum included: AfDB, Gauteng Provincial Government, Invest SA, Africa 50, Afrexim Bank, European Investment Bank, AFC, DBSA, TDB, Islamic Development Bank. Sponsors included Harith, ABR, Petrolin, SimmonsCooper Partners, Economic Development Board (Mauritius), Power Africa, Millenium Challenge Corporation, Patagonian Tech, IDB.",
+        "countries" : "2018 Africa Investment Forum attracted 1 943 participants representing 87 countries, and 400 investors from 52 countries."
+      },
+      {
+        "id" : 7,
+        "name" : "Growth and Economic Opportunities for Women Program",
+        "type" : "Program",
+        "description" : "Work with research teams around the world to generate evidence on women's economic empowerment and to promote the use of research by decision-makers.",
+        "objective" : "Promote research use by decision-makers",
+        "mapFileName" : "",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [2,3],
+        "sectorIDs": [1,4],
+        "sectors": [],
+        "partners" : "Convening partners for the 2018 Forum included: AfDB, Gauteng Provincial Government, Invest SA, Africa 50, Afrexim Bank, European Investment Bank, AFC, DBSA, TDB, Islamic Development Bank. Sponsors included Harith, ABR, Petrolin, SimmonsCooper Partners, Economic Development Board (Mauritius), Power Africa, Millenium Challenge Corporation, Patagonian Tech, IDB.",
+        "countries" : "2018 Africa Investment Forum attracted 1 943 participants representing 87 countries, and 400 investors from 52 countries."
+      },
+      {
+        "id" : 8,
+        "name" : "The Information and Networks in Asia and Sub-Saharan Africa Program (INASSA)",
+        "type" : "Program",
+        "description" : "Program focusses on producing and sharing credible, high-qualit evidence on the influence of digital intiatives in governnance, science, learning and entrepreneurship.",
+        "objective" : "Build on evidence base that shows the links between increasing use of digital information networks & economic growth, democratic reform, & greater educational opportunities in developing countries.",
+        "mapFileName" : "",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,2,3],
+        "sectorIDs": [10],
+        "sectors": [],
+        "partners" : "Convening partners for the 2018 Forum included: AfDB, Gauteng Provincial Government, Invest SA, Africa 50, Afrexim Bank, European Investment Bank, AFC, DBSA, TDB, Islamic Development Bank. Sponsors included Harith, ABR, Petrolin, SimmonsCooper Partners, Economic Development Board (Mauritius), Power Africa, Millenium Challenge Corporation, Patagonian Tech, IDB.",
+        "countries" : "2018 Africa Investment Forum attracted 1 943 participants representing 87 countries, and 400 investors from 52 countries."
+      },
+      {
+        "id" : 9,
+        "name" : "International Partnerships for Sustainable Societies (IPASS)",
+        "type" : "International partnership/ joint initiative",
+        "description" : "A 7-year joint initiative that supports international partnerships. These collaborations are producing high-quality research to inform academic, public and policy debates in ways that can help create just, inclusive and sustainable social and economic development.",
+        "objective" : "Create just, inclusive and sustainable social and economic development.",
+        "mapFileName" : "",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,2,3],
+        "sectorIDs": [6,9,12,13],
+        "sectors": [],
+        "partners" : "Convening partners for the 2018 Forum included: AfDB, Gauteng Provincial Government, Invest SA, Africa 50, Afrexim Bank, European Investment Bank, AFC, DBSA, TDB, Islamic Development Bank. Sponsors included Harith, ABR, Petrolin, SimmonsCooper Partners, Economic Development Board (Mauritius), Power Africa, Millenium Challenge Corporation, Patagonian Tech, IDB.",
+        "countries" : "2018 Africa Investment Forum attracted 1 943 participants representing 87 countries, and 400 investors from 52 countries."
+      },
+      {
+        "id" : 10,
+        "name" : "Inclusive Growth and Development",
+        "type" : "Project",
+        "description" : "Collaboration to promote innovative public-private-civil society partnerships.  Project will develop regional & global platforms whereby the private sector, local governments, the donor community, and civil society can work together to develop and champion sustainable, scalable, and evidence-based solutions that enable pro-growth and pro-inclusion outcomes.",
+        "objective" : "To foster inclusive economic development by providing concrete examples to governments & other stakeholders, & by building a platform for identifying innovative private-public partnerships that offer the potential for scaling up, replication, or adaptation.",
+        "mapFileName" : "",
+        "formsOfSupport" : [],
+        "formsOfSupportIDs" : [1,2,3],
+        "sectorIDs": [6,9,12,13],
+        "sectors": [],
+        "partners" : "Convening partners for the 2018 Forum included: AfDB, Gauteng Provincial Government, Invest SA, Africa 50, Afrexim Bank, European Investment Bank, AFC, DBSA, TDB, Islamic Development Bank. Sponsors included Harith, ABR, Petrolin, SimmonsCooper Partners, Economic Development Board (Mauritius), Power Africa, Millenium Challenge Corporation, Patagonian Tech, IDB.",
+        "countries" : "2018 Africa Investment Forum attracted 1 943 participants representing 87 countries, and 400 investors from 52 countries."
+      }
+    ]
+  }
+]

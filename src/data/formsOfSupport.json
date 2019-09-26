@@ -1,0 +1,35 @@
+[
+    {
+      "id" : 1,
+      "name" : "Financing",
+      "shortName" : "Financing",
+      "circleImage" : "circle_diagonal.png",
+      "circleImageLarge" : "circle_diagonal_large.png",
+      "barImage" : "bar_diagonal.png",
+      "projects" : [],
+      "sectors": [],
+      "leadOrgs" : []
+    },
+    {
+      "id" : 2,
+      "name" : "Capacity Building / Pipeline",
+      "shortName" : "Capacity Building",
+      "circleImage" : "circle_lines.png",
+      "circleImageLarge" : "circle_lines_large.png",
+      "barImage" : "bar_lines.png",
+      "projects" : [],
+      "sectors": [],
+      "leadOrgs" : []
+    },
+    {
+      "id" : 3,
+      "name" : "Enabling Environment",
+      "shortName" : "Enabling Environment",
+      "circleImage" : "circle_dots.png",
+      "circleImageLarge" : "circle_dots_large.png",
+      "barImage" : "bar_dots.png",
+      "projects" : [],
+      "sectors": [],
+      "leadOrgs" : []
+    }
+]

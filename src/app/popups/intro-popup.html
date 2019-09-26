@@ -1,0 +1,25 @@
+<!-- Intro popup -->
+<div class="wef__popup-overlay introduction" ng-show="$ctrl.isIntroPopupOpen">
+  <div class="wef__popup">
+    <div class="closePopup" ng-click="$ctrl.isIntroPopupOpen = !$ctrl.isIntroPopupOpen"><i class="fa fa-times"></i></div>
+    <div class="column column-66">
+      <div class="card__row" style="border: 1px solid #444;">
+
+        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/357063003?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+      </div>
+    </div>
+    <div class="column">
+      <div class="card__row" style="padding-left: 20px;padding-right: 20px; border-bottom: 0;">
+        <h5 style="opacity: 100; color: white;">This is a vizualisation of all the projects in the study.</h5>
+        <p>Each block represents one intervention. Interventions are grouped by lead organisations indicated by the line running above.</p>
+        <p>Specific development sectors are indicated by the colours in the block.</p>
+        <p>Forms of support - financing, capacity building/pipeline, and enabling environment -are indicated by the lines beneath each intervention.</p>
+        <div class="wef__button" ng-click="$ctrl.isIntroPopupOpen = !$ctrl.isIntroPopupOpen">
+          <span>Let's Go<i class="fa fa-angle-right"></i></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- / Intro popup -->

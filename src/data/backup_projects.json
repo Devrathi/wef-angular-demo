@@ -1,0 +1,1009 @@
+{
+  "id" : 1,
+  "name" : "Absa",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Private sector",
+  "geography" : "Regional (Africa) ",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "The Corporate and Investment section provides sector-specific expertise and financing solutions",
+      "type" : "Private sector services",
+      "description" : "",
+      "objective" : "To provide financial and banking solutions.",
+      "mapFileName" : "map001.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [1],
+      "sectorIDs": [10,11,12,13,14],
+      "sectors": [],
+      "partners" : "Not specified.",
+      "countries" : "Botswana, Zambia, Namibia, South Africa, Seychelles, Mauritius, Kenya, Ghana, Tanzania, Mozambique, Nigeria, Uganda"
+    }
+  ]
+},
+{
+  "id" : 2,
+  "name" : "Access Power",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Private sector",
+  "geography" : "International",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "Access Co-development Facility (ACF)",
+      "type" : "Finance facility/fund",
+      "description" : "",
+      "objective" : "To provide local project developers and originators in Africa with the technical expertise and funding required to bring their renewable energy projects to fruition.",
+      "mapFileName" : "africa_asia.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [1,2],
+      "sectorIDs": [11,14],
+      "sectors": [],
+      "partners" : "Access Power works with international partners in the project selection process. ACF judging panel includes: African Development Bank, FMO, IFC, InfraCo Africa, OPIC, Power Africa, Proparco. Total Eren are strategic shareholders of Access Power and are key partners of ACF.",
+      "countries" : "Africa-wide (also Asia since 2018)"
+    }
+  ]
+},
+{
+  "id" : 3,
+  "name" : "Africa Climate Resilient Investment Facility (AFRI-RES)",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Finance facility/Fund",
+  "geography" : "Regional (Africa) ",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "Technical assistance and knowledge-based support for project development that will deliver climate resilient infrastructure in Africa.",
+      "type" : "Finance facility/fund",
+      "description" : "",
+      "objective" : "To establish an Africa-based centre of technical competence and excellence that would assist governments, planners and private developers in Africa to integrate climate change into project planning and design, thereby attracting funding from both development and climate finance sources.",
+      "mapFileName" : "africa.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [2,3],
+      "sectorIDs": [9,11,14],
+      "sectors": [],
+      "partners" : "Launched by the United Nations Economic Commission for Africa (through its African Climate Policy Center - ACPC), and the African Union Commission, World Bank and African Development Bank. Received initial seed funding from the Nordic Development Fund. ",
+      "countries" : "Africa"
+    }
+  ]
+},
+{
+  "id" : 4,
+  "name" : "Africa Finance Corporation (AFC)",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Development finance institution (DFI)",
+  "geography" : "Regional (Africa) ",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "Environmental and Social Risk Management Policy",
+      "type" : "Approach/strategy",
+      "description" : "",
+      "objective" : "To address Africa’s infrastructure development needs while seeking a competitive return on capital for its shareholders.",
+      "mapFileName" : "map002.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [1,2],
+      "sectorIDs": [5,7,10,11,14],
+      "sectors": [],
+      "partners" : "AFC is majority owned by private investors, most of which are African financial institutions (e.g. Central Bank of Nigeria); AFC also allows African states to be shareholders and members of the corporation. Regional partnerships include: African Development Bank, African Export-Import Bank, PTA Bank, Islamic Development Bank, Banque Ouest Africaine de Development, the Nigerian Sovereign Investment Authority. International partnerships: China Africa Fund, Infrastructure Development Finance Company of India, FMO and US Government through USAID & US Presidential “Power Africa Initiative”. ",
+      "countries" : "Projects in: Ghana, Cape Verde, Republic of Benin, Mozambique, Nigeria, Kenya, Cote d’Ivoire, Ethiopia, South Africa, Gabon, Republic of Congo, Chad"
+    }
+  ]
+},
+{
+  "id" : 5,
+  "name" : "Africa Foundation",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Foundation",
+  "geography" : "Regional (Africa) ",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "Funds projects in support of rural development, conservation",
+      "type" : "Projects",
+      "description" : "",
+      "objective" : "To empower rural communities and support conservation.",
+      "mapFileName" : "map003.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [1,2],
+      "sectorIDs": [3,5,8,9,12],
+      "sectors": [],
+      "partners" : "Africa Foundation receives support and funding from Africa Foundation (USA) and Africa Foundation (UK). ",
+      "countries" : "Africa Foundation (UK) is funding projects in more than 40 communities in Botswana, Kenya, Mozambique, Namibia, South Africa, Tanzania."
+    }
+  ]
+},
+{
+  "id" : 6,
+  "name" : "Africa GreenCo",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Finance facility/fund",
+  "geography" : "Regional (sub-region within Africa)",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "Mitigation of credit risks",
+      "type" : "General mandate",
+      "description" : "",
+      "objective" : "To increase private sector investment in energy generation in sub-Saharan Africa by mitigating credit risks.",
+      "mapFileName" : "map004.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [1],
+      "sectorIDs": [11],
+      "sectors": [],
+      "partners" : "A public-private partnership between African governments, the private sector and international financial institutions. Partners include the Rockerfeller Foundation, Convergence, P4G, Sustainable Energy for All, RERA, SADC SAPP, APUA, NEPAD, Global Water Partnership.",
+      "countries" : "15 member countries in SADC"
+    }
+  ]
+},
+{
+  "id" : 7,
+  "name" : "Africa Infrastructure Development Association (AfIDA)",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Forum/convening organisation",
+  "geography" : "Regional (Africa) ",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "Platform for dialogue, sharing tools, policy advocacy",
+      "type" : "General mandate",
+      "description" : "",
+      "objective" : "To promote and enable infrastructure project development activities in Africa.",
+      "mapFileName" : "africa.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [2,3],
+      "sectorIDs": [14],
+      "sectors": [],
+      "partners" : "AfIDA's founding members include: Africa Finance Corporation, Financierings-Maatschappij voor Ontwikkelingslanden N.V, Trinity LLP, Eleqtra, African Infrastructure Investment Managers, Themis Abraaj and Climate Investment One.",
+      "countries" : "Africa"
+    }
+  ]
+},
+{
+  "id" : 8,
+  "name" : "Africa Innovation Foundation",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Foundation",
+  "geography" : "Regional (Africa) ",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "Innovation Prize in Africa",
+      "type" : "Events",
+      "description" : "",
+      "objective" : "(1) Increase Africa’s prosperity through investing in home-grown innovations & entrepreneurship; (2) Strengthen African innovation ecosystems through AIF platforms & mobilize network of innovation enablers driving business development and cross-collaboration; (3) Demonstrate that African ingenuity exists at a Pan African level by honouring outstanding innovations, recognizing their positive impact.",
+      "mapFileName" : "int_global.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [1,2],
+      "sectorIDs": [4,5,10],
+      "sectors": [],
+      "partners" : "The Foundation lists 20+ institutional partners (innovation hubs and labs). The Innotation Prize in Africa (IPA) platform has a network of 9400+ African innovators spanning 55 countries.",
+      "countries" : "The IPA is a network of 9400+ African innovators in 55 countries; the Foundation also has a presence in Angola."
+    }
+  ]
+},
+{
+  "id" : 9,
+  "name" : "Africa Investor",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Forum/convening organisation",
+  "geography" : "International",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "Africa's infrastructure co-investment platform",
+      "type" : "Forum/platform",
+      "description" : "",
+      "objective" : "To align its client based with vetted infrastructure, private equity and technology opportunities in Africa.",
+      "mapFileName" : "africa.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [2],
+      "sectorIDs": [4,10,14],
+      "sectors": [],
+      "partners" : "Ai Capital",
+      "countries" : "Africa"
+    }
+  ]
+},
+{
+  "id" : 10,
+  "name" : "Africa50 Investment Fund",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Finance facility/Fund",
+  "geography" : "Regional (Africa) ",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "Infrastructure investment platform",
+      "type" : "Forum/platform",
+      "description" : "",
+      "objective" : "(1) Improve infrastructure in Africa by developing bankable projects and catalyzing investments into shareholder countries; (2) Leverage public funds to raise private capital from long term institutional investors in Africa and elsewhere; (3) Operate commercially with an appropriate financial return while promoting economic development.",
+      "mapFileName" : "africa.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [1,2],
+      "sectorIDs": [7,9,10,11,14],
+      "sectors": [],
+      "partners" : "Established by AfDB. Africa50 is owned by 27 governments, two central banks and the AfDB. Sovereign shareholders are: Benin, Burkina Faso, Cameroon, Democratic Republic of Congo, Djibouti, Egypt, Gabon, Gambia, Ghana, Guinea, Ivory Coast, Kenya, Madagascar, Malawi, Mali, Mauritania, Mauritius, Morocco, Niger, Nigeria, Republic of Congo, Rwanda, Senegal, Sierra Leone, Sudan, Togo, and Tunisia. The banks are the Central Bank of West African States (BCEAO) and Bank Al-Maghrib. ",
+      "countries" : "Africa"
+    }
+  ]
+},
+{
+  "id" : 11,
+  "name" : "African Infrastructure Investment Managers (AIIM)",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Private sector",
+  "geography" : "Regional (Africa) ",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "Developing and managing private equity infrastructure funds",
+      "type" : "Private sector services",
+      "description" : "",
+      "objective" : "Sustainable investment in infrastructure. ",
+      "mapFileName" : "sew_africa.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [1],
+      "sectorIDs": [14],
+      "sectors": [],
+      "partners" : "Initially established in 2000 as a 50/50 joint venture, AIIM combined the experience of the South African financial institutions, Old Mutual, with one of the world's leading infrastructure investment managers, Macquarie. In 2015, Old Mutual Alternative Investments (OMAI) acquired Macquarie's 50% shareholding in AIIM, making it the sole shareholder.",
+      "countries" : "East, West and Southern Africa"
+    }
+  ]
+},
+{
+  "id" : 12,
+  "name" : "African Rainbow Capital Investments",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Private sector",
+  "geography" : "National",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "Capital raising and investment",
+      "type" : "Private sector services",
+      "description" : "",
+      "objective" : "To provide capital raising and investment services, and to undertake some public benefit activities.",
+      "mapFileName" : "subsah_africa.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [1],
+      "sectorIDs": [4,6,10,11,13,14],
+      "sectors": [],
+      "partners" : "Numerous investments; partners not specified.",
+      "countries" : "Sub-Saharan Africa (with a focus on South Africa)"
+    }
+  ]
+},
+{
+  "id" : 13,
+  "name" : "African Trade and Insurance (ATI) Agency",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Public sector",
+  "geography" : "Regional (Africa) ",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "Insurance and risk mitigation",
+      "type" : "Instruments",
+      "description" : "",
+      "objective" : "To pave the way for foreign lenders to comfortably invest in Africa. ",
+      "mapFileName" : "int_global.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [1],
+      "sectorIDs": [5,11,14],
+      "sectors": [],
+      "partners" : "The ATI has received funding and technical support from the World Bank and later, the African Development Bank. Other partners include African and International lenders and corporates, contractors, exporters and importers, government agencies, insurers, reinsurers and investors. Institutional members include: AfDB, African Reinsurance Corporation, Atradius Group, Ministry of Finance India (represented by ECGC), SACE, COMESA, The Eastern and Southern African Trade and Development Bank (TDB), Kenya Re, The PTA Reinsurance Company (Zep Re), UK Export Finance. ",
+      "countries" : "Various African member and prospective member countries"
+    }
+  ]
+},
+{
+  "id" : 14,
+  "name" : "The Allianz Group ",
+  "SDIP" : true,
+  "description" : "",
+  "type" : "Private sector",
+  "geography" : "International",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "Funding for the Emerging Africa Infrastructure Fund",
+      "type" : "Private sector services",
+      "description" : "",
+      "objective" : "To contribute to development as responsible corporate citizens, and through their global investments.",
+      "mapFileName" : "int_global.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [1],
+      "sectorIDs": [5,6],
+      "sectors": [],
+      "partners" : "Allianz Africa has offices in 14 countries; there are other Allianz Group offices in Egypt (Allianz Egypt), South Africa (AGCS South Africa) and Mauritius (Allianz Partners). Allianz works with a network of other insurance companies in much of the rest of Africa.",
+      "countries" : "Present in 17 countries, operating in 39 markets (14 Allianz Africa offices: Bénin, Burkina Faso, Cameroon, Centrafrique, Congo, Côte d’Ivoire, Ghana, Kenya, Madagascar, Mali, Morocco, Nigeria, Senegal and Togo; also Egypt, South Africa and Mauritius)."
+    }
+  ]
+},
+{
+  "id" : 15,
+  "name" : "Align 17",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Private sector",
+  "geography" : "International",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "Digitial marketplace",
+      "type" : "Forum/platform",
+      "description" : "",
+      "objective" : "Empowering a new generation of private investors to become catalysts for positive change. ",
+      "mapFileName" : "int_global.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [3],
+      "sectorIDs": [3,4,5,6,7,8,9,10,11,12,13,14],
+      "sectors": [],
+      "partners" : "Not specified.",
+      "countries" : "International"
+    }
+  ]
+},
+{
+  "id" : 16,
+  "name" : "Amethis",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Private sector",
+  "geography" : "Regional (Africa) ",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "Growth capital",
+      "type" : "Finance facility/fund",
+      "description" : "",
+      "objective" : "Sustainable development.",
+      "mapFileName" : "africa.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [1],
+      "sectorIDs": [2,14],
+      "sectors": [],
+      "partners" : "Amethis is a partnership between its two founders, Luc Rigouzzo and Laurent Demey, and Edmond de Rothschild Private Equity, a subsidiary of the Edmond the Rothschild Group based in Geneva, Switzerland.",
+      "countries" : "Africa - 22 portfolio companies with footprint in more than 20 countries."
+    }
+  ]
+},
+{
+  "id" : 17,
+  "name" : "Arab Bank for Economic Development in Africa (BADEA)",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Development finance institution (DFI)",
+  "geography" : "Regional (Africa) ",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "Private sector financing programme and the foreign trade financing programme, approved under the 7th Five Year Plan.",
+      "type" : "Programme/service area",
+      "description" : "",
+      "objective" : "To strengthen cooperation between the African and Arab regions and promote development within Africa by financing development projects and providing technical assistance.",
+      "mapFileName" : "africa.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [1,2],
+      "sectorIDs": [2,3,5,7,12,13,14],
+      "sectors": [],
+      "partners" : "BADEA includes most members of the Arab League. In addition to the African beneficiary governments, BADEA is a member of the Arab and Regional Coordination Group. It also works closely with strategic partners including multilateral and bilateral development agencies and such regional and international agencies as the African Development Bank (AfDB) and the World Bank.",
+      "countries" : "Africa"
+    }
+  ]
+},
+{
+  "id" : 18,
+  "name" : "Asian Development Bank (ADB)",
+  "SDIP" : true,
+  "description" : "",
+  "type" : "Development finance institution (DFI)",
+  "geography" : "Regional (Asia)",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "High Level Technology Fund",
+      "type" : "Finance facility/fund",
+      "description" : "",
+      "objective" : "Enable technological development and/or the scaling up of the technology deployment in the recipient country.",
+      "mapFileName" : "adb_dev.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [1],
+      "sectorIDs": [7,9,11],
+      "sectors": [],
+      "partners" : "Government of Japan",
+      "countries" : "ADB developing member countries. There are currently none in Africa."
+    }
+  ]
+},
+{
+  "id" : 19,
+  "name" : "Asia Infrastructure Investment Bank (AIIB)",
+  "SDIP" : true,
+  "description" : "",
+  "type" : "Development finance institution (DFI)",
+  "geography" : "Regional (Asia)",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "Financing operations in non-regional members; strategy to mobilise private sector finance,",
+      "type" : "Strategy/approach",
+      "description" : "",
+      "objective" : "To improve social and economic outcomes in Asia by investing in infrastructure development.",
+      "mapFileName" : "aiib.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [1],
+      "sectorIDs": [7,9,10,11,14],
+      "sectors": [],
+      "partners" : "AIIB has a co-financing framework agreement with the World Bank, and Memorandums on joint cooperation & co-financing with: African Development Bank, African Development Fund, Asian Development Bank, Eurasian Development Bank, European Bank for Reconstruction and Development, Eurasian Development Bank, European Investment Bank, Inter-American Development Bank & Inter-American Investment Corporation, the Islamic Development Bank Group (IsDB Group), the New Development Bank and the World Bank Group. AIIB also partners with private financial institutions and cooperates with other partners in the public and non-governmental sectors. ",
+      "countries" : "Approved projects in Egypt as well as in other regional member countries. Other African members: Ethiopia, Madagascar, Sudan. Prospective members: Algeria, Ghana, Guinea, Kenya, Libya, Morocco, South Africa, Togo, Tunisia."
+    }
+  ]
+},
+{
+  "id" : 20,
+  "name" : "Association of African Development Finance Institutions (AADFI)",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Forum/convening organisation",
+  "geography" : "Regional (Africa) ",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "MOU with Convergence Blended Finance",
+      "type" : "Initiative",
+      "description" : "",
+      "objective" : "To collaborate to attract more investment to Africa through blended finance by raising awareness among and providing support to DFIs in the region.",
+      "mapFileName" : "africa.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [2],
+      "sectorIDs": [4,5,13,14],
+      "sectors": [],
+      "partners" : "Convergence",
+      "countries" : "Members of AADFI"
+    }
+  ]
+},
+{
+  "id" : 21,
+  "name" : "Association for the Development of Energy in Africa (Adea)",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Forum/convening organisation",
+  "geography" : "Regional (Africa) ",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "Energy for Africa ",
+      "type" : "Research/publications",
+      "description" : "",
+      "objective" : " To break the vicious cycle which currently dominates the sector and to search for ways and means which would enable the integration of excluded populations into the commercial system, which is necessary to make development possible.",
+      "mapFileName" : "africa.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [3],
+      "sectorIDs": [4,11],
+      "sectors": [],
+      "partners" : "Paid membership",
+      "countries" : "Africa"
+    }
+  ]
+},
+{
+  "id" : 22,
+  "name" : "Merrill Lynch (BAML)",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Private sector",
+  "geography" : "International",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "Impact investing",
+      "type" : "Private sector services",
+      "description" : "",
+      "objective" : "Sustainable investment. ",
+      "mapFileName" : "int_global.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [1],
+      "sectorIDs": [2],
+      "sectors": [],
+      "partners" : "Bank of America",
+      "countries" : "International"
+    }
+  ]
+},
+{
+  "id" : 23,
+  "name" : "Banque de developpement des États de l'Afrique centrale (BDEAC), Development Bank of Central African States",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Development finance institution (DFI)",
+  "geography" : "Regional (sub-region within Africa)",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "Memorandum of Understanding with the African Export-Import Bank (Afreximbank)",
+      "type" : "Collaboration/ Partnership",
+      "description" : "",
+      "objective" : " To harmonize their efforts in the promotion of trade and regional integration.",
+      "mapFileName" : "c_africa.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [1,2],
+      "sectorIDs": [5],
+      "sectors": [],
+      "partners" : "African Export-Import Bank (Afreximbank) ",
+      "countries" : "Central African countries (Cameroon, Central African Republic, Congo, Gabon, Equatorial Guinea and Chad)"
+    }
+  ]
+},
+{
+  "id" : 24,
+  "name" : "Baraka Impact Finance",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Private sector",
+  "geography" : "International",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "BarakaNetworks, a data-driven global health impact investment platform.",
+      "type" : "Forum/platform",
+      "description" : "",
+      "objective" : "To bring financing to the global health sector. ",
+      "mapFileName" : "int_global.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [1],
+      "sectorIDs": [12],
+      "sectors": [],
+      "partners" : "Not specified, but the platform builds on the Artha Network platform.",
+      "countries" : "Not specified"
+    }
+  ]
+},
+{
+  "id" : 25,
+  "name" : "BIGEN Africa Group",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Private sector",
+  "geography" : "Regional (Africa) ",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "Approach to infrastructure development; BIGEN emphasises social and economic development impacts, and aims to ensure that projects benefit local communities as well as clients and stakeholders",
+      "type" : "Strategy/approach",
+      "description" : "",
+      "objective" : "Doing good while doing business",
+      "mapFileName" : "africa.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [2],
+      "sectorIDs": [4,7,9,11,12],
+      "sectors": [],
+      "partners" : "Financial services are provided in partnership with CRESCO; environmental services in partnership with Nemai Consulting; institutional risk management services are led by Africa Practice. Bigen also reports working collectively work with governments, the private sector, communities and civil society to improve living conditions and resource use without undermining the integrity and stability of the natural systems.",
+      "countries" : "The Group has a regional footprint in more than 19 countries in Africa. Offices in South Africa, Ghana, Namibia, Botswana, Zambia and Mauritius; projects also in DRC, Rwanda and Kenya."
+    }
+  ]
+},
+{
+  "id" : 26,
+  "name" : "BlackRock Inc",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Private sector",
+  "geography" : "International",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "Sustainable investing",
+      "type" : "Approach/strategy",
+      "description" : "",
+      "objective" : "To incorporate business-relevant sustainability considerations into their investment research, portfolio construction, and stewardship processes to enhance long-term risk adjusted returns for their clients.",
+      "mapFileName" : "int_global.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [1],
+      "sectorIDs": [2,11,14],
+      "sectors": [],
+      "partners" : "BlackRock works with companies they invest in on governance issues; they also work with non-profits and others on social impact projects.",
+      "countries" : "International"
+    }
+  ]
+},
+{
+  "id" : 27,
+  "name" : "BlueOrchard",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Private sector",
+  "geography" : "International",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "Impact investment",
+      "type" : "Approach/strategy",
+      "description" : "",
+      "objective" : "Impact investing. ",
+      "mapFileName" : "int_global.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [1,2],
+      "sectorIDs": [6,8,9,11,14],
+      "sectors": [],
+      "partners" : "BlueOrchard partners with a number of major development institutions and other key players. Partners in blended finance structures include DFIs, multi-lateral banks (MDBs), bilateral organizations, and foundations. ",
+      "countries" : "BlueOrchard has invested more than USD 6 billion in over 475 institutions across 80 countries. "
+    }
+  ]
+},
+{
+  "id" : 28,
+  "name" : "Belgian Investment Company for Developing Countries (BIO)",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Private sector",
+  "geography" : "International",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "Sustainable investing",
+      "type" : "Approach/strategy",
+      "description" : "",
+      "objective" : "The core of BIO’s mission to invest in private sector projects is to contribute in a structural and positive way to the socio-economic growth of the host countries and their population, aligned with SDG 1 No Poverty.",
+      "mapFileName" : "int_global.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [1],
+      "sectorIDs": [1],
+      "sectors": [],
+      "partners" : "BIO relies on partners to benefit from their experience and presence on the ground as well as to run co-financing projects. Includes EDFI, other donors and international financing institutions such as the International Finance Corporation (IFC), the European Investment Bank (EIB), and TCX etc.",
+      "countries" : "Developing and emerging countries"
+    }
+  ]
+},
+{
+  "id" : 29,
+  "name" : "BMZ",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Public sector",
+  "geography" : "International",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "Bilateral co-operation within sub-Saharan Africa; A Marshall Plan with Africa; cooperation with the African Union",
+      "type" : "Initiative",
+      "description" : "",
+      "objective" : "Support for international development. ",
+      "mapFileName" : "africa.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [1,2,3],
+      "sectorIDs": [2,5,8],
+      "sectors": [],
+      "partners" : "BMZ cooperates with international organizations involved in development including the International Monetary Fund, World Bank, and the United Nations. ",
+      "countries" : "Africa"
+    }
+  ]
+},
+{
+  "id" : 30,
+  "name" : "Business and Sustainable Development Commission (BSDC)",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Commission",
+  "geography" : "International",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "Blended Finance Task Force",
+      "type" : "Initiative",
+      "description" : "",
+      "objective" : "Mobilising private capital for the SDGs. ",
+      "mapFileName" : "int_global.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [1,3],
+      "sectorIDs": [8,14],
+      "sectors": [],
+      "partners" : "The Action Programme is championed by leaders from across the investment and development finance community including HSBC, Credit Suisse, Aviva, Investec, Allianz, EBRD, the IFC and the Rockefeller Foundation. ",
+      "countries" : "International"
+    }
+  ]
+},
+{
+  "id" : 31,
+  "name" : "Carlyle Group (The)",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Private sector",
+  "geography" : "International",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "Responsible investing, environmental stewardship",
+      "type" : "Approach/strategy",
+      "description" : "",
+      "objective" : "Value creation. ",
+      "mapFileName" : "int_global.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [1],
+      "sectorIDs": [4,6,7,10,11,12,14],
+      "sectors": [],
+      "partners" : "Not specified.",
+      "countries" : "Global - has two offices in Africa. "
+    }
+  ]
+},
+{
+  "id" : 32,
+  "name" : "Catalytic Capital Consortium ",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Forum/convening organisation",
+  "geography" : "International",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "Catalytic finance initiative",
+      "type" : "Coalition/network",
+      "description" : "",
+      "objective" : "Promote use of and learning about catalytic capital in support of SDGs. ",
+      "mapFileName" : "int_global.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [1],
+      "sectorIDs": [2],
+      "sectors": [],
+      "partners" : "Conceived by MacArthur Foundation; the Rockefeller Foundation and Omidyar Network joined as strategic partners.",
+      "countries" : "Spans emerging and developed markets"
+    }
+  ]
+},
+{
+  "id" : 33,
+  "name" : "Climate Investment Funds (CIF)",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Finance facility/fund",
+  "geography" : "International",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "The Clean Technology Fund and the Strategic Climate Fund",
+      "type" : "Finance facility/fund",
+      "description" : "",
+      "objective" : "To accelerate climate action in developing and middle income countries; bridging the financing and learning gap between now and the next international climate change agreement.",
+      "mapFileName" : "int_global.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [1],
+      "sectorIDs": [8,11,13],
+      "sectors": [],
+      "partners" : "14 donor countries have contributed over $8 billion in support of scaling up mitigation and adaptation action in developing and middle-income countries, including African Development Bank. The funds are held by the World Bank.",
+      "countries" : "72 developing and middle income countries worldwide"
+    }
+  ]
+},
+{
+  "id" : 34,
+  "name" : "Climate Investor One Fund (CIO)",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Finance facility/fund",
+  "geography" : "International",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "The Development Fund; Construction Equity Fund",
+      "type" : "Finance facility/fund",
+      "description" : "",
+      "objective" : "Catalyisng impact investment for renewable energy. ",
+      "mapFileName" : "africa_asia.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [1,2],
+      "sectorIDs": [11],
+      "sectors": [],
+      "partners" : "Proposed by the Netherlands Development Finance Company (FMO)",
+      "countries" : "Africa, Asia, India"
+    }
+  ]
+},
+{
+  "id" : 35,
+  "name" : "Climate Justice and Resilience Fund (New Venture Fund)",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Finance facility/fund",
+  "geography" : "International",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "Grant-making",
+      "type" : "Finance facility/fund",
+      "description" : "",
+      "objective" : "Making grants to support community-led solutions for climate resilience. ",
+      "mapFileName" : "map009.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [1,2],
+      "sectorIDs": [8],
+      "sectors": [],
+      "partners" : "Created in 2016 through a grant from the Oak Foundation, it is a project of New Venture Fund, a public charity registered in the United States. In 2017, the Kendeda Fund became CJRF’s second member foundation. ",
+      "countries" : "East Africa, the Bay of Bengal, and the Arctic"
+    }
+  ]
+},
+{
+  "id" : 36,
+  "name" : "Climate Policy Initiative (CPI)",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Non-profit",
+  "geography" : "International",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "Global Innovation Lab for Climate Finance",
+      "type" : "Forum/platform",
+      "description" : "",
+      "objective" : "By identifying, developing, and supporting transformative sustainable finance ideas, the Lab aims to drive billions of dollars of private investment to the low-carbon economy.",
+      "mapFileName" : "int_global.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [1],
+      "sectorIDs": [8,9,11,13],
+      "sectors": [],
+      "partners" : "Funders: Australian Department of Foreign Affairs and Trade; Bloomberg Philanthropies; GIZ; IFAD; German Federal Ministry for the Environment, Nature conservation and Nuclear Safety; Netherlands Ministry of Foreign Affairs; Rockerfeller Foundation; Shakti; Department for Business, Energy & Industrial Strategy.",
+      "countries" : "International"
+    }
+  ]
+},
+{
+  "id" : 37,
+  "name" : "Coface (France)",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Private sector",
+  "geography" : "International",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "Risk mitigation instruments (guarantees)",
+      "type" : "Instruments",
+      "description" : "",
+      "objective" : "Based on the belief that business is a force for good in the world, Coface aims to become the most agile, global trade credit insurance partner in the industry.",
+      "mapFileName" : "int_global.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [1],
+      "sectorIDs": [2],
+      "sectors": [],
+
+      "partners" : "",
+      "countries" : "200 countries"
+    }
+  ]
+},
+{
+  "id" : 38,
+  "name" : "Collaborative for Frontier Finance",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Forum/convening organisation",
+  "geography" : "International",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "Mobilising additional capital for small and growing businesses in emerging markets.",
+      "type" : "Finance facility/fund",
+      "description" : "",
+      "objective" : "To improve the financing ecosystem for early, small and growing businesses (SGBs) in emerging markets.",
+      "mapFileName" : "int_global.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [1,2,3],
+      "sectorIDs": [5,6],
+      "sectors": [],
+      "partners" : "CFF’s founding partners include the Dutch Good Growth Fund, Omidyar Network, and the World Bank along with incubation partner the Global Development Incubator. It is guided by a Steering Committee including its founding partners as well as funders including Argidius Foundation, DFAT, MacArthur Foundation, and Small Foundation. ",
+      "countries" : "Emerging and frontier markets"
+    }
+  ]
+},
+{
+  "id" : 39,
+  "name" : "COMESA",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Regional economic community",
+  "geography" : "Regional (sub-region within Africa)",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "COMESA Fund protocol (2002) for Co-operation, Compensation and Development of the Common Market for Eastern and Southern Africa",
+      "type" : "General mandate",
+      "description" : "",
+      "objective" : "Fostering physical regional connectivity and deepening infrastructure integration. ",
+      "mapFileName" : "comesa.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [1,3],
+      "sectorIDs": [7,10,11,14],
+      "sectors": [],
+      "partners" : "21 member states; partners include African Development Bank, European Union, World Bank and USAID. The COMESA Infrastructure Fund, a window under the COMESA Fund protocol, is managed by the Trade and Development Bank.",
+      "countries" : "Burundi, the Comoros, the Democratic Republic of Congo, Djibouti, Egypt, Eritrea, Ethiopia, Kenya, Libya, Madagascar, Malawi, Mauritius, Rwanda, Sudan, Swaziland, Seychelles, Uganda, Zambia and Zimbabwe."
+    }
+  ]
+},
+{
+  "id" : 40,
+  "name" : "Confluence Philanthropy",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Non-profit",
+  "geography" : "International",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "Practitioners Gathering",
+      "type" : "Events",
+      "description" : "",
+      "objective" : "To advance mission/values aligned investment. ",
+      "mapFileName" : "int_global.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [2],
+      "sectorIDs": [4,8],
+      "sectors": [],
+      "partners" : "Confluence is an international organization. The majority of members are based in the US and a handful in Europe, Canada, and Mexico. It was launched in 2009 as a special project of Rockefeller Philanthropy Advisors.",
+      "countries" : "International"
+    }
+  ]
+},
+{
+  "id" : 41,
+  "name" : "Conrad N. Hilton Foundation",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Foundation",
+  "geography" : "International",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "Grant-making",
+      "type" : "Finance facility/fund",
+      "description" : "",
+      "objective" : "To improve the lives of disadvantaged and vulnerable people throughout the world. ",
+      "mapFileName" : "int_global.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [1,3],
+      "sectorIDs": [4,9,12],
+      "sectors": [],
+      "partners" : "Not specified.",
+      "countries" : "US and international. Safe Water: focus on sub-Saharan Africa (Burkina Faso, Ethiopia, Ghana, Mali, Niger and Uganda); support for children affected by HIV/AIDS (Kenya, Tanzania, Malawi, Zambia, Mozambique)"
+    }
+  ]
+},
+{
+  "id" : 42,
+  "name" : "Contour Global",
+  "SDIP" : false,
+  "description" : "",
+  "type" : "Private sector",
+  "geography" : "International",
+  "projects" : [
+    {
+      "id" : 1,
+      "name" : "Social investment strategy",
+      "type" : "Strategy/approach",
+      "description" : "",
+      "objective" : "To contribute to the communities in which Contour Global's power generation businesses are located.",
+      "mapFileName" : "int_global.png",
+      "formsOfSupport" : [],
+      "formsOfSupportIDs" : [1],
+      "sectorIDs": [11],
+      "sectors": [],
+      "partners" : "Not specified.",
+      "countries" : "International, includes plants in Africa (e.g. Rwanda, Nigeria)"
+    }
+  ]
+},

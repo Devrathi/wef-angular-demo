@@ -1,0 +1,141 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.typekit.net/egv8ena.css">
+
+<head>
+  <!-- build:baseUrl -->
+  <base href="/">
+  <!--  this will create a <base href="/your website baseUrl"> when Gulp compiles the build project -->
+
+  <!-- endbuild -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="EXPLORE COSMOS">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EXPLORE COSMOS</title>
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <!-- Web Application Manifest -->
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Add to homescreen for Chrome on Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="Explore COSMOS">
+  <link rel="icon" sizes="192x192" href="images/chrome-touch-icon-192x192.png">
+
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Explore COSMOS">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+  <!-- Tile icon for Win8 (144x144 + tile color) -->
+  <meta name="msapplication-TileImage" content="images/ms-touch-icon-144x144-precomposed.png">
+  <meta name="msapplication-TileColor" content="#000000">
+
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <!-- Color the status bar on mobile devices -->
+  <meta name="theme-color" content="#000000">
+
+  <!--[if IE]>
+  <link rel="shortcut icon" href="favicon.ico">
+  <![endif]-->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/balloon-css/balloon.min.css">
+
+
+    <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css">
+  <!-- build:css(./.tmp) css/main.min.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="../bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css" />
+    <link rel="stylesheet" href="../bower_components/angular-loading-bar/build/loading-bar.css" />
+    <!-- endbower -->
+    <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+
+  <script>document.documentElement.className = document.documentElement.className.replace('no-js','js');</script>
+</head>
+
+<body style="background-color: #15191c;">
+  <!--[if lt IE 8]>
+  <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/?locale=en">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <page-header></page-header>
+
+  <!-- Main view for templates -->
+  <div ng-view class="page"></div>
+
+  <!-- <page-footer></page-footer> -->
+
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <!-- build:main(./.tmp) js/main.min.js -->
+    <!-- bower:js -->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/jquery-mousewheel/jquery.mousewheel.js"></script>
+    <script src="../bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.js"></script>
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="../bower_components/ng-scrollbars/dist/scrollbars.min.js"></script>
+    <script src="../bower_components/angular-route/angular-route.js"></script>
+    <script src="../bower_components/angular-animate/angular-animate.js"></script>
+    <script src="../bower_components/underscore/underscore.js"></script>
+    <script src="../bower_components/angular-resource/angular-resource.js"></script>
+    <script src="../bower_components/angular-loading-bar/build/loading-bar.js"></script>
+    <script src="../bower_components/angular-sortable-view/src/angular-sortable-view.js"></script>
+    <!-- endbower -->
+
+    <script src="app/app.js"></script>
+
+    <script src="app/page-footer/page-footer.directive.js"></script>
+    <script src="app/services/directives.js"></script>
+    <script src="app/services/projects.service.js"></script>
+    <script src="app/services/sectors.service.js"></script>
+    <script src="app/services/formsOfSupport.service.js"></script>
+    <script src="app/home/home.controller.js"></script>
+    <script src="app/popups/popups.controllers.js"></script>
+    <script src="app/explorers/selectionSummaries.controllers.js"></script>
+    <script src="app/explorers/explorerViews.controller.js"></script>
+    <script src="app/explorers/explorer-breadcrumb.controller.js"></script>
+    <script src="app/explorers/projects-and-leadorgs-list.controller.js"></script>
+
+    <!-- build:templates -->
+      <!-- minify and concatenate all template files -->
+    <!-- endbuild -->
+
+  <!-- endbuild -->
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <!-- End Google Analytics -->
+
+  <script>
+    angular.element(document).ready(function() {
+      angular.bootstrap(document, ['app']);
+    });
+  </script>
+  <!-- Built with love by @andreasonny83 -->
+</body>
+</html>

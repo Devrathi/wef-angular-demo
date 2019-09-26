@@ -1,0 +1,6 @@
+<div class="breadcrumb">
+  <div ng-repeat="crumb in $ctrl.formattedBreadcrumbs">
+    <h5 style="cursor:pointer;"  ng-click="$ctrl.openBreadcrumb($index)">&nbsp;/{{crumb.title}}&nbsp;&nbsp;</h5>
+  </div>
+  <h4 ng-click="$ctrl.closeExplorerView()"><i class="fa fa-angle-left"></i></small> Back to Overview</h4>
+</div>

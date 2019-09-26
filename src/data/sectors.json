@@ -1,0 +1,137 @@
+[
+    {
+      "id" : 1,
+      "name" : "General economic development",
+      "color": "#de5d3c",
+      "totalProjects" : 0,
+      "projects" : [],
+      "fos" : [],
+      "leadOrgs" : []
+    },
+    {
+      "id" : 2,
+      "name" : "Multiple unspecified",
+      "color": "#e29c50",
+      "totalProjects" : 0,
+      "projects" : [],
+      "fos" : [],
+      "leadOrgs" : []
+    },
+    {
+      "id" : 3,
+      "name" : "Education",
+      "color": "#6b1b41",
+      "totalProjects" : 0,
+      "projects" : [],
+      "fos" : [],
+      "leadOrgs" : []
+    },
+    {
+      "id" : 4,
+      "name" : "Other",
+      "color": "#e8b6d8",
+      "totalProjects" : 0,
+      "projects" : [],
+      "fos" : [],
+      "leadOrgs" : []
+    },
+    {
+      "id" : 5,
+      "name" : "SME support",
+      "color": "#4c9678",
+      "totalProjects" : 0,
+      "projects" : [],
+      "fos" : [],
+      "leadOrgs" : []
+    },
+    {
+      "id" : 6,
+      "name" : "Financial Services",
+      "color": "#005565",
+      "totalProjects" : 0,
+      "projects" : [],
+      "fos" : [],
+      "leadOrgs" : []
+    },
+    {
+      "id" : 7,
+      "name" : "Transport",
+      "color": "#73e0b2",
+      "totalProjects" : 0,
+      "projects" : [],
+      "fos" : [],
+      "leadOrgs" : []
+    },
+    {
+      "id" : 8,
+      "name" : "Climate",
+      "color": "#d8bc4e",
+      "totalProjects" : 0,
+      "projects" : [],
+      "fos" : [],
+      "leadOrgs" : []
+    },
+    {
+      "id" : 9,
+      "name" : "Water",
+      "color": "#83cfe7",
+      "totalProjects" : 0,
+      "projects" : [],
+      "fos" : [],
+      "leadOrgs" : []
+    },
+    {
+      "id" : 10,
+      "name" : "ICT",
+      "color": "#fbe6c6",
+      "totalProjects" : 0,
+      "projects" : [],
+      "fos" : [],
+      "leadOrgs" : []
+    },
+    {
+      "id" : 11,
+      "name" : "Energy",
+      "color": "#5166d4",
+      "totalProjects" : 0,
+      "projects" : [],
+      "fos" : [],
+      "leadOrgs" : []
+    },
+    {
+      "id" : 12,
+      "name" : "Health",
+      "color": "#0091c7",
+      "totalProjects" : 0,
+      "projects" : [],
+      "fos" : [],
+      "leadOrgs" : []
+    },
+    {
+      "id" : 13,
+      "name" : "Agriculture",
+      "color": "#f6ed5f",
+      "totalProjects" : 0,
+      "projects" : [],
+      "fos" : [],
+      "leadOrgs" : []
+    },
+    {
+      "id" : 14,
+      "name" : "Infrastructure",
+      "color": "#e1878d",
+      "totalProjects" : 0,
+      "projects" : [],
+      "fos" : [],
+      "leadOrgs" : []
+    },
+    {
+      "id" : 15,
+      "name" : "Agnostic",
+      "color": "#dff7ef",
+      "totalProjects" : 0,
+      "projects" : [],
+      "fos" : [],
+      "leadOrgs" : []
+    }
+]
