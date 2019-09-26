@@ -1,0 +1,38 @@
+{
+  "name": "angular-starter-kit",
+  "description": "Starter Kit for Angular 1.5+ projects",
+  "main": "src/index.html",
+  "authors": [
+    "Andrea SonnY <andreasonny83@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "angularjs",
+    "starter-kit"
+  ],
+  "homepage": "https://github.com/andreasonny83/angular-starter-kit",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "*",
+    "ng-scrollbars": "^0.0.11",
+    "angular": "^1.6.4",
+    "angular-route": "^1.6.4",
+    "angular-animate": "^1.6.4",
+    "underscore": "^1.9.0",
+    "bootstrap": "*",
+    "angular-resource": "*",
+    "angular-loading-bar": "*",
+    "angular-sortable-view": "0.0.15"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.6.4"
+  }
+}
